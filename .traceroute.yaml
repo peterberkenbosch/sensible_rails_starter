@@ -1,0 +1,9 @@
+ignore_unreachable_actions:
+- active_storage/representations/proxy#send_stream
+- active_storage/blobs/proxy#send_stream
+
+ignore_unused_routes:
+- rails/conductor/action_mailbox/inbound_emails#edit
+- rails/conductor/action_mailbox/inbound_emails#update
+- rails/conductor/action_mailbox/inbound_emails#update
+- rails/conductor/action_mailbox/inbound_emails#destroy

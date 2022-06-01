@@ -63,10 +63,14 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Flexible authentication solution for Rails with Warden (https://github.com/heartcombo/devise)
-gem "devise", "~> 4.8"
+# gem "devise", "~> 4.8"
 
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem "faker"
+
+# Catch unsafe migrations in development (https://github.com/ankane/strong_migrations)
+gem "strong_migrations"
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -88,11 +92,28 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  # Alias for the standard gem, which has a standardrb binary (https://github.com/testdouble/standardrb)
-  gem "standardrb"
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
+end
+
+# Static code analysis, security and linting
+group :development do
+  # Alias for the standard gem, which has a standardrb binary (https://github.com/testdouble/standardrb)
+  gem "standardrb"
+  # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   gem "annotate_gem", require: false
+  # Annotates Rails Models, routes, fixtures, and others based on the database schema. (https://github.com/ctran/annotate_models)
   gem "annotate"
+  # Git hook manager (https://github.com/sds/overcommit)
+  gem "overcommit", require: false
+  # Patch-level verification for Bundler (https://github.com/rubysec/bundler-audit#readme)
+  gem "bundler-audit", require: false
+  # Security vulnerability scanner for Ruby on Rails. (https://brakemanscanner.org)
+  gem "brakeman", require: false
+  # A Rake task that helps you find the dead routes and actions for your Rails 3 app (https://github.com/amatsuda/traceroute)
+  gem "traceroute"
+
+  # a code metric tool for rails codes. (http://rails-bestpractices.com)
+  gem "rails_best_practices"
 end
