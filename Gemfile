@@ -68,6 +68,9 @@ gem "bootsnap", require: false
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem "faker"
 
+gem "strong_migrations"
+
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
