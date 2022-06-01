@@ -10,10 +10,27 @@ ignore_unreachable_actions:
 - devise/confirmations#create
 - devise/confirmations#new
 - devise/confirmations#show
+- application#authenticate_admin!
+- home#authenticate_admin!
+- devise#authenticate_admin!
+- devise/omniauth_callbacks#authenticate_admin!
+- devise/passwords#authenticate_admin!
+- devise/sessions#authenticate_admin!
+- devise/unlocks#authenticate_admin!
+- devise/confirmations#authenticate_admin!
+- devise/registrations#authenticate_admin!
+- app_tools/mains#authenticate_admin!
+- app_tools/styles#authenticate_admin!
 
 ignore_unused_routes:
 - rails/conductor/action_mailbox/inbound_emails#edit
 - rails/conductor/action_mailbox/inbound_emails#update
 - rails/conductor/action_mailbox/inbound_emails#update
 - rails/conductor/action_mailbox/inbound_emails#destroy
+- devise/confirmations#new
+- devise/confirmations#show
+- devise/confirmations#create
+- devise/unlocks#new
+- devise/unlocks#show
+- devise/unlocks#create
 
