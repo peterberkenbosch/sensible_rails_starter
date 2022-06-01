@@ -68,6 +68,7 @@ gem "bootsnap", require: false
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem "faker"
 
+# Catch unsafe migrations in development (https://github.com/ankane/strong_migrations)
 gem "strong_migrations"
 
 
@@ -112,4 +113,7 @@ group :development do
   gem "brakeman", require: false
   # A Rake task that helps you find the dead routes and actions for your Rails 3 app (https://github.com/amatsuda/traceroute)
   gem "traceroute"
+
+  # a code metric tool for rails codes. (http://rails-bestpractices.com)
+  gem "rails_best_practices"
 end

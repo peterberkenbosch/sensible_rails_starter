@@ -57,3 +57,6 @@ PreCommit:
   enabled: true
   command: ['rake', 'traceroute', 'FAIL_ON_ERROR=1']
                                          
+ RailsBestPractices:
+  enabled: true
+  command: ['rails_best_practices', '.']
