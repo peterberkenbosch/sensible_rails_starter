@@ -52,4 +52,8 @@ PreCommit:
  AnnotateGem:
   enabled: true
   command: ['annotate-gem']
+
+ Traceroute:
+  enabled: true
+  command: ['rake', 'traceroute']
                                          

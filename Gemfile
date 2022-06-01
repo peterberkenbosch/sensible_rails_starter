@@ -97,10 +97,16 @@ end
 group :development do
   # Alias for the standard gem, which has a standardrb binary (https://github.com/testdouble/standardrb)
   gem "standardrb"
+  # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   gem "annotate_gem", require: false
+  # Annotates Rails Models, routes, fixtures, and others based on the database schema. (https://github.com/ctran/annotate_models)
   gem "annotate"
+  # Git hook manager (https://github.com/sds/overcommit)
   gem "overcommit", require: false
+  # Patch-level verification for Bundler (https://github.com/rubysec/bundler-audit#readme)
   gem "bundler-audit", require: false
+  # Security vulnerability scanner for Ruby on Rails. (https://brakemanscanner.org)
   gem "brakeman", require: false
+  # A Rake task that helps you find the dead routes and actions for your Rails 3 app (https://github.com/amatsuda/traceroute)
   gem "traceroute"
 end
