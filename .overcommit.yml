@@ -44,3 +44,7 @@ PreCommit:
  Reek:
   enabled: true
   command: ['reek']
+
+ Brakeman:
+  enabled: true
+  command: ['brakeman']

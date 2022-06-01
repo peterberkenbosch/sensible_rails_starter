@@ -97,4 +97,5 @@ group :development do
   gem "annotate"
   gem "overcommit", require: false
   gem "bundler-audit", require: false
+  gem "brakeman", require: false
 end
