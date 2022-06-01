@@ -40,3 +40,7 @@ PreCommit:
  BundlerAudit:
   enabled: true
   command: ['bundler-audit']
+
+ Reek:
+  enabled: true
+  command: ['reek']
