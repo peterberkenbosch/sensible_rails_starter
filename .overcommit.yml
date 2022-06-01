@@ -48,3 +48,8 @@ PreCommit:
  Brakeman:
   enabled: true
   command: ['brakeman']
+
+ AnnotateGem:
+  enabled: true
+  command: ['annotate-gem']
+                                         

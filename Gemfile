@@ -63,7 +63,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Flexible authentication solution for Rails with Warden (https://github.com/heartcombo/devise)
-gem "devise", "~> 4.8"
+# gem "devise", "~> 4.8"
 
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem "faker"
@@ -88,14 +88,19 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  # Alias for the standard gem, which has a standardrb binary (https://github.com/testdouble/standardrb)
-  gem "standardrb"
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
+end
+
+# Static code analysis, security and linting
+group :development do
+  # Alias for the standard gem, which has a standardrb binary (https://github.com/testdouble/standardrb)
+  gem "standardrb"
   gem "annotate_gem", require: false
   gem "annotate"
   gem "overcommit", require: false
   gem "bundler-audit", require: false
   gem "brakeman", require: false
+  gem "traceroute"
 end
