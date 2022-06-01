@@ -24,7 +24,7 @@ RSpec.configure do |config|
       Rake::Task["assets:precompile"].execute
     ensure
       $stdout.reopen(original_stdout)
-      $stdout.puts "Finished in #{(Time.current - start).round(2)} seconds"
+      $stdout.puts "Finished in #{(Time.current - start).round(2)} seconds ⏱"
     end
   end
 end

@@ -63,7 +63,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Flexible authentication solution for Rails with Warden (https://github.com/heartcombo/devise)
-# gem "devise", "~> 4.8"
+gem "devise", "~> 4.8"
 
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem "faker"
@@ -86,12 +86,12 @@ end
 
 group :test do
   # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
-  gem 'capybara'
+  gem "capybara"
   # Headless Chrome driver for Capybara (https://github.com/rubycdp/cuprite)
-  gem 'cuprite'
+  gem "cuprite"
 
   # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
-  gem 'test-prof'
+  gem "test-prof"
 end
 
 group :development do

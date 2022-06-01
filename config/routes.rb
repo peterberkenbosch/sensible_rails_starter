@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   namespace :app_tools do
     get "styles/index"
     get "styles/tailwindcss"

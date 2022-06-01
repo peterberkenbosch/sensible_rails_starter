@@ -1,9 +1,19 @@
 ignore_unreachable_actions:
 - active_storage/representations/proxy#send_stream
 - active_storage/blobs/proxy#send_stream
+- devise#_prefixes
+- devise/omniauth_callbacks#failure
+- devise/omniauth_callbacks#passthru
+- devise/unlocks#create
+- devise/unlocks#show
+- devise/unlocks#new
+- devise/confirmations#create
+- devise/confirmations#new
+- devise/confirmations#show
 
 ignore_unused_routes:
 - rails/conductor/action_mailbox/inbound_emails#edit
 - rails/conductor/action_mailbox/inbound_emails#update
 - rails/conductor/action_mailbox/inbound_emails#update
 - rails/conductor/action_mailbox/inbound_emails#destroy
+
