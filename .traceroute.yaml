@@ -4,4 +4,6 @@ ignore_unreachable_actions:
 
 ignore_unused_routes:
 - rails/conductor/action_mailbox/inbound_emails#edit
-
+- rails/conductor/action_mailbox/inbound_emails#update
+- rails/conductor/action_mailbox/inbound_emails#update
+- rails/conductor/action_mailbox/inbound_emails#destroy

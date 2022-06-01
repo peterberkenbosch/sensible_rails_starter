@@ -55,6 +55,5 @@ PreCommit:
 
  Traceroute:
   enabled: true
-  on_fail: false
-  command: ['rake', 'traceroute']
+  command: ['rake', 'traceroute', 'FAIL_ON_ERROR=1']
                                          
