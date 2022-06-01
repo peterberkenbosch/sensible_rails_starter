@@ -94,4 +94,5 @@ group :development do
   gem "letter_opener"
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   gem "annotate_gem", require: false
+  gem "annotate"
 end
