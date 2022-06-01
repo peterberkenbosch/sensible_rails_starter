@@ -71,7 +71,6 @@ gem "faker"
 # Catch unsafe migrations in development (https://github.com/ankane/strong_migrations)
 gem "strong_migrations"
 
-
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
@@ -80,6 +79,19 @@ group :development, :test do
   gem "rspec-rails"
   # the instafailing RSpec progress bar formatter (https://github.com/thekompanee/fuubar)
   gem "fuubar"
+
+  # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
+  gem "simplecov", require: false
+end
+
+group :test do
+  # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
+  gem 'capybara'
+  # Headless Chrome driver for Capybara (https://github.com/rubycdp/cuprite)
+  gem 'cuprite'
+
+  # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
+  gem 'test-prof'
 end
 
 group :development do
