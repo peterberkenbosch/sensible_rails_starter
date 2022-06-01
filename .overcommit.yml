@@ -35,7 +35,7 @@
 PreCommit:
  Standard:
   enabled: true
-  command: ['standardrb --fix']
+  command: ['standardrb', '--fix']
 
  BundlerAudit:
   enabled: true
