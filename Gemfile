@@ -95,4 +95,5 @@ group :development do
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   gem "annotate_gem", require: false
   gem "annotate"
+  gem "overcommit", require: false
 end
