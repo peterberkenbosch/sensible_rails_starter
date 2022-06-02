@@ -34,3 +34,6 @@ ignore_unused_routes:
 - devise/unlocks#show
 - devise/unlocks#create
 
+ignore_uninitialized_constant:
+- TestProf
+
