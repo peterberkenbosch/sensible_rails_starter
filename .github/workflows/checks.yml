@@ -69,5 +69,5 @@ jobs:
      bundle exec bundler-audit
      reek
      bundle exec brakeman 
-     bundle exec rake traceroute
+     bundle exec rails traceroute
      bundle exec rails_best_practices .
