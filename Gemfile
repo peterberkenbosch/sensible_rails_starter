@@ -71,6 +71,9 @@ gem "faker"
 # Catch unsafe migrations in development (https://github.com/ankane/strong_migrations)
 gem "strong_migrations"
 
+# factory_bot provides a framework and DSL for defining and using model instance factories. (https://github.com/thoughtbot/factory_bot)
+gem "factory_bot"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
@@ -82,6 +85,12 @@ group :development, :test do
 
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem "simplecov", require: false
+
+  # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
+  gem "test-prof"
+
+  # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
+  gem 'stackprof', '>= 0.2.9', require: false
 end
 
 group :test do
@@ -89,9 +98,6 @@ group :test do
   gem "capybara"
   # Headless Chrome driver for Capybara (https://github.com/rubycdp/cuprite)
   gem "cuprite"
-
-  # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
-  gem "test-prof"
 end
 
 group :development do
