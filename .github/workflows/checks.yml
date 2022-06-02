@@ -64,6 +64,7 @@ jobs:
      gem install bundler
      bundle install --jobs 4 --retry 3
      gem install reek
+     gem install traceroute
      bundle exec standardrb
      bundle exec bundler-audit
      reek
