@@ -124,7 +124,7 @@ group :development do
   # Annotates Rails Models, routes, fixtures, and others based on the database schema. (https://github.com/ctran/annotate_models)
   gem "annotate"
   # Code smell detector for Ruby (https://github.com/troessner/reek)
-  gem "reek", require: false
+  gem "reek"
   # Git hook manager (https://github.com/sds/overcommit)
   gem "overcommit", require: false
   # Patch-level verification for Bundler (https://github.com/rubysec/bundler-audit#readme)
