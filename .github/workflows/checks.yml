@@ -62,6 +62,7 @@ jobs:
      FAIL_ON_ERROR: 1
     run: |
      gem install traceroute
+     
      gem install bundler
      bundle install --jobs 4 --retry 3
      gem install reek
