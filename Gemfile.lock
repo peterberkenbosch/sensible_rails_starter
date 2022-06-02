@@ -73,6 +73,8 @@ GEM
       rake (>= 10.4, < 14.0)
     annotate_gem (0.0.14)
       bundler (>= 1.1)
+    anyway_config (2.3.0)
+      ruby-next-core (>= 0.14.0)
     appmap (0.83.2)
       activesupport
       method_source
@@ -281,6 +283,7 @@ GEM
     rubocop-performance (1.13.3)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
+    ruby-next-core (0.15.1)
     ruby-progressbar (1.11.0)
     sexp_processor (4.16.1)
     simplecov (0.21.2)
@@ -340,6 +343,7 @@ PLATFORMS
 DEPENDENCIES
   annotate
   annotate_gem
+  anyway_config
   appmap
   bootsnap
   brakeman

@@ -74,6 +74,8 @@ gem "faker"
 # factory_bot_rails provides integration between factory_bot and rails 5.0 or newer (https://github.com/thoughtbot/factory_bot_rails)
 gem "factory_bot_rails"
 
+gem "anyway_config"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
@@ -92,6 +94,7 @@ group :development, :test do
   # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
   gem "stackprof", ">= 0.2.9", require: false
 
+# Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
 gem 'appmap', :groups => [:development, :test]
 
 
