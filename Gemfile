@@ -71,6 +71,7 @@ gem "strong_migrations"
 # Easily generate fake data (https://github.com/faker-ruby/faker)
 gem "faker"
 
+# factory_bot_rails provides integration between factory_bot and rails 5.0 or newer (https://github.com/thoughtbot/factory_bot_rails)
 gem "factory_bot_rails"
 
 group :development, :test do
