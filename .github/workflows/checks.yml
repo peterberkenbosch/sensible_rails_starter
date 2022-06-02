@@ -57,14 +57,10 @@ jobs:
      PG_USER: postgres
      WITH_COVERAGE: true
      DISABLE_SPRING: 1
-     FAIL_ON_ERROR: 1
     run: |
-     gem install traceroute
-     
      gem install bundler
      bundle install --jobs 4 --retry 3
      bundle exec standardrb
      bundle exec bundler-audit
      bundle exec brakeman 
-     bundle exec rake traceroute
      bundle exec rails_best_practices .
