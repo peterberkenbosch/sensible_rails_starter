@@ -143,6 +143,7 @@ GEM
     jsbundling-rails (1.0.2)
       railties (>= 6.0.0)
     json (2.6.2)
+    kwalify (0.7.2)
     launchy (2.5.0)
       addressable (~> 2.7)
     letter_opener (1.8.1)
@@ -174,6 +175,8 @@ GEM
       timeout
     nio4r (2.5.8)
     nokogiri (1.13.6-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     overcommit (0.59.1)
@@ -228,6 +231,10 @@ GEM
     rainbow (3.1.1)
     rake (13.0.6)
     redis (4.6.0)
+    reek (6.1.1)
+      kwalify (~> 0.7.0)
+      parser (~> 3.1.0)
+      rainbow (>= 2.0, < 4.0)
     regexp_parser (2.5.0)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -321,6 +328,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   annotate
@@ -344,6 +352,7 @@ DEPENDENCIES
   rails (~> 7.0.3)
   rails_best_practices
   redis (~> 4.0)
+  reek
   rspec-rails
   simplecov
   sprockets-rails
@@ -361,4 +370,4 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
-   2.2.32
+   2.3.15
