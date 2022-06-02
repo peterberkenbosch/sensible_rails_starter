@@ -95,10 +95,8 @@ group :development, :test do
   # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
   gem "stackprof", ">= 0.2.9", require: false
 
-# Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
-gem 'appmap', :groups => [:development, :test]
-
-
+  # Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
+  gem "appmap", groups: [:development, :test]
 end
 
 group :test do
