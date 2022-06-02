@@ -123,6 +123,8 @@ group :development do
   gem "annotate_gem", require: false
   # Annotates Rails Models, routes, fixtures, and others based on the database schema. (https://github.com/ctran/annotate_models)
   gem "annotate"
+
+  gem "reek", require: false
   # Git hook manager (https://github.com/sds/overcommit)
   gem "overcommit", require: false
   # Patch-level verification for Bundler (https://github.com/rubysec/bundler-audit#readme)
