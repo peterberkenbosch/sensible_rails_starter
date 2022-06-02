@@ -1,0 +1,9 @@
+# 'name' should be the same as the code repo name.
+name: my_project
+packages:
+- path: app/controllers
+- path: app/models
+- path: app/views
+- path: lib
+# Include the gems that you want to see in the dependency maps.
+- gem: devise

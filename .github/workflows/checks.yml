@@ -37,7 +37,6 @@ jobs:
      ruby-version: 3.0.3
      bundler: default
 
-
   - name: Gem Cache
     uses: actions/cache@v1
     id: gem-cache
@@ -53,22 +52,15 @@ jobs:
      bundle config path vendor/bundle
      bundle check || bundle install --jobs 4 --retry 3
 
-
   - name: Run Checks
     env:
      PG_USER: postgres
      WITH_COVERAGE: true
      DISABLE_SPRING: 1
-     FAIL_ON_ERROR: 1
     run: |
-     gem install traceroute
-     
      gem install bundler
      bundle install --jobs 4 --retry 3
-     gem install reek
      bundle exec standardrb
      bundle exec bundler-audit
-     reek
      bundle exec brakeman 
-     rake traceroute
      bundle exec rails_best_practices .

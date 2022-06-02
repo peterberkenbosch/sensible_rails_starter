@@ -36,3 +36,6 @@
 /node_modules
 
 /coverage
+
+/config/*.local.yml
+/config/credentials/local.*
