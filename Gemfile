@@ -65,14 +65,13 @@ gem "bootsnap", require: false
 # Flexible authentication solution for Rails with Warden (https://github.com/heartcombo/devise)
 gem "devise", "~> 4.8"
 
-# Easily generate fake data (https://github.com/faker-ruby/faker)
-gem "faker"
-
 # Catch unsafe migrations in development (https://github.com/ankane/strong_migrations)
 gem "strong_migrations"
 
-# factory_bot provides a framework and DSL for defining and using model instance factories. (https://github.com/thoughtbot/factory_bot)
-gem "factory_bot"
+# Easily generate fake data (https://github.com/faker-ruby/faker)
+gem "faker"
+
+gem "factory_bot_rails"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -85,12 +84,12 @@ group :development, :test do
 
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem "simplecov", require: false
-
+  # Code coverage for JavaScript (
   # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
   gem "test-prof"
 
   # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
-  gem 'stackprof', '>= 0.2.9', require: false
+  gem "stackprof", ">= 0.2.9", require: false
 end
 
 group :test do
@@ -131,7 +130,6 @@ group :development do
   gem "brakeman", require: false
   # A Rake task that helps you find the dead routes and actions for your Rails 3 app (https://github.com/amatsuda/traceroute)
   gem "traceroute"
-
   # a code metric tool for rails codes. (http://rails-bestpractices.com)
   gem "rails_best_practices"
 end

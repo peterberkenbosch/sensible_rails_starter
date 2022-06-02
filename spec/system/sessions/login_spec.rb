@@ -3,15 +3,18 @@
 require "system_helper"
 
 describe "Log in", auth: false do
-  xit "I should login before visiting the workspace" do
+  let!(:user) { create(:user) }
+
+  it "I should login before visiting the workspace" do
     visit root_path
 
     click_on "Log in"
 
-    expect(page).to have_text "Please, name yourself"
-    expect(page).to have_current_path(login_path)
+    expect(page).to have_text "Log in"
 
-    fill_in :name, with: "Matroskin the Cat"
+    # expect(page).to have_current_path(login_path)
+
+    fill_in :user_email, with: user.email
     click_on "Log in"
 
     expect(page).to have_text "Demo Workspace"
