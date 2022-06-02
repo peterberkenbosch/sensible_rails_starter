@@ -61,10 +61,10 @@ jobs:
      DISABLE_SPRING: 1
      FAIL_ON_ERROR: 1
     run: |
+     gem install traceroute
      gem install bundler
      bundle install --jobs 4 --retry 3
      gem install reek
-     gem install traceroute
      bundle exec standardrb
      bundle exec bundler-audit
      reek
