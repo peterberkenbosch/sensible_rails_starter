@@ -7,4 +7,3 @@ class ApplicationController < ActionController::Base
     redirect_to root_path, alert: "You do not have permission to access this page."
   end
 end
-
