@@ -74,6 +74,7 @@ gem "faker"
 # factory_bot_rails provides integration between factory_bot and rails 5.0 or newer (https://github.com/thoughtbot/factory_bot_rails)
 gem "factory_bot_rails"
 
+# Configuration DSL for Ruby libraries and applications (http://github.com/palkan/anyway_config)
 gem "anyway_config"
 
 group :development, :test do
