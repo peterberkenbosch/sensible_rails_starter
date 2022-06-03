@@ -20,7 +20,6 @@ We recommend [RubyCI](https://ruby.ci/) for builds
 
 ---
 
-
 ### Usage:
 
 ```bash
@@ -104,7 +103,6 @@ cd <app_name>
 - [ ] Lookbook
 - [ ] Interactor
 - [ ] Rails ERD
-- [ ] Bundle audit
 - [ ] StandardJS
 - [ ] Avo Admin
 - [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails console by environment
