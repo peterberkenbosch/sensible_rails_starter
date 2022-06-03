@@ -33,23 +33,34 @@ cd <app_name>
 ./bin/dev
 ```
 
-## Whats' in the box
+## What's in the box
 
-### Production
+### Core
 
 - [Rails 7](https://rubyonrails.org/) - Compress the complexity of modern web apps.
+
+### Authentications & Authorization
+
+- [Devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
 
 ### Frontend
 
 - [Hotwire](https://hotwired.dev/) - an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
-      - [Turbo](https://turbo.hotwired.dev/) - The speed of a single-page web application without having to write any JavaScript.
-      - [Stimulus](https://stimulus.hotwired.dev/) - A modest JavaScript framework for the HTML you already have.
+   
+  - [Turbo](https://turbo.hotwired.dev/) - The speed of a single-page web application without having to write any JavaScript.
+     
+  - [Stimulus](https://stimulus.hotwired.dev/) - A modest JavaScript framework for the HTML you already have.
 
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
-      - [typography plugin](https://tailwindcss.com/docs/typography-plugin) - Beautiful typographic defaults for HTML you don't control.
-      - [forms plugin](https://github.com/tailwindlabs/tailwindcss-forms) - A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
-      - [aspect-ratio plugin](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - A plugin that provides a composable API for giving elements a fixed aspect ratio.
-      - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for visually truncating text after a fixed number of lines.
+     
+  - [typography plugin](https://tailwindcss.com/docs/typography-plugin) - Beautiful typographic defaults for HTML you don't control.
+  - [forms plugin](https://github.com/tailwindlabs/tailwindcss-forms) - A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
+  - [aspect-ratio plugin](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - A plugin that provides a composable API for giving elements a fixed aspect ratio.
+  - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for visually truncating text after a fixed number of lines.
+
+### Configuration
+
+- [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications
 
 ### Development
 
@@ -57,35 +68,43 @@ cd <app_name>
 
 - [RSpec](https://github.com/rspec/rspec-rails) - rspec-rails brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework, Minitest.
 - [Fuubar](https://github.com/thekompanee/fuubar) - fuubar is an installing RSpec format that uses a progress bar instead of a string of letters and dots as feedback.
+- [factory_bot](https://github.com/thoughtbot/factory_bot) - A library for setting up Ruby objects as test data.
+- [Faker](https://github.com/faker-ruby/faker) - Easily generate fake data
+- [simplecov](https://github.com/simplecov-ruby/simplecov) - Code coverage for Ruby 
+
+
 
 #### Linting
 
 - [Standard - Ruby style guide, linter, and formatter](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer
+                 
+
+### Code Quality
+ 
+- [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
+- [traceroute](https://github.com/amatsuda/traceroute) - A Rake task that helps you find the dead routes and actions for your Rails app
+- [rails_best_practices](http://rails-bestpractices.com) - a code metric tool for rails codes.
 
 #### Utilities
 
+- [overcommit](https://github.com/sds/overcommit) - Git hook manager
 - [Annotate (aka AnnotateModels)](https://github.com/ctran/annotate_models) - Annotate Rails classes with schema and routes info
 - [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
-
+- [annotate_gem](https://github.com/ivantsepp/annotate_gem) - Add comments to your Gemfile with each dependency's description. ``
 ---
 
-## Coming soon...
+### dependancy Management
 
-- [ ] [Devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
-- [ ] RSpec System Tests
-- [ ] [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications
-- [ ] [factory_bot](https://github.com/thoughtbot/factory_bot) -A library for setting up Ruby objects as test data.
-- [ ] Faker
+- [bundler-audit](https://github.com/rubysec/bundler-audit#readme) - Patch-level verification for Bundler 
+- [brakeman](https://brakemanscanner.org) - Security vulnerability scanner for Ruby on Rails. 
+
+## Coming soon...
 - [ ] Friendly Id
 - [ ] ViewComponent
 - [ ] Lookbook
 - [ ] Interactor
-- [ ] SimpleCov
 - [ ] Rails ERD
 - [ ] Bundle audit
-- [ ] Pre commit hooks (husky/overcommit )
-- [ ] Reek
-- [ ] Add a PR readme - [see here](https://github.com/fastruby/rails-template/blob/main/pull_request_template.md)
 - [ ] StandardJS
 - [ ] Avo Admin
 - [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails console by environment
