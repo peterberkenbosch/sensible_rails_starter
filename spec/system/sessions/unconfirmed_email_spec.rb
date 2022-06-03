@@ -1,7 +1,7 @@
 require "system_helper"
 
 describe "Log in", auth: false do
-  let(:user) { build(:user, confirmed_at: nil) }
+  let(:user) { create(:user, confirmed_at: nil) }
 
   it "expects email to be confirmed" do
     visit root_path

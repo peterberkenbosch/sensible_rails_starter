@@ -7,3 +7,4 @@ packages:
 - path: lib
 # Include the gems that you want to see in the dependency maps.
 - gem: devise
+                                               
