@@ -2,10 +2,7 @@ FactoryBot.define do
   factory :user, class: "User" do
     email { Faker::Internet.email }
     password { "password" }
-
-    after(:create) do |user|
-      user.skip_confirmation!
-    end
+    confirmed_at { Time.now.utc }
 
     trait :as_admin do
       after(:create) do |user|
