@@ -1,7 +1,7 @@
 require "system_helper"
 
 describe "Log in", auth: false do
-  let(:user) { build(:user) }
+  let(:user) { create(:user) }
 
   it "expects successful log in" do
     visit root_path
