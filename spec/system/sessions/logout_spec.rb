@@ -1,18 +1,14 @@
-# frozen_string_literal: true
-
 require "system_helper"
 
 describe "Log in" do
-  xit "I can logout" do
+  let(:user) { build(:user) }
+
+  it "can logout" do
+    login_as(user)
     visit root_path
 
-    within "nav" do
-      expect(page).to have_text "Welcome, Any!"
+    click_on "Log out"
 
-      expect(page).to have_text "Sign out"
-      click_on "Sign out"
-    end
-
-    expect(page).to have_link "Sign in"
+    expect(page).to have_text "Signed out successfully."
   end
 end

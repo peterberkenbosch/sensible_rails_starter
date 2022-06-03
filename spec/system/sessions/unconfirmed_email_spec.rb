@@ -1,9 +1,9 @@
 require "system_helper"
 
 describe "Log in", auth: false do
-  let(:user) { build(:user) }
+  let(:user) { build(:user, confirmed_at: nil) }
 
-  it "expects successful log in" do
+  it "expects email to be confirmed" do
     visit root_path
     click_on "Log in"
 
@@ -14,6 +14,6 @@ describe "Log in", auth: false do
       click_on "Log in"
     end
 
-    expect(page).to have_text "Signed in successfully."
+    expect(page).to have_text "You have to confirm your email address before continuing."
   end
 end
