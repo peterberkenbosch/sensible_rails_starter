@@ -7,7 +7,12 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require "rspec/rails"
 
 require "simplecov"
-SimpleCov.start
+SimpleCov.start "rails" do
+  # # Part of Jumpstart Pro and may have tests not specs.
+  # add_filter %w[app/controllers/admin app/jobs/application_job app/controllers/api app/controllers/users app/fields app/channels app/notifications lib/ app/dashboards]
+  #
+  # add_filter %w[lib/development_seeds]
+end
 
 # Add additional requires below this line. Rails is not loaded until this point!
 
