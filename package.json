@@ -19,6 +19,10 @@
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
-    "build:css": "tailwindcss --postcss -i app/assets/stylesheets/application.scss -o ./app/assets/builds/application.css --minify"
+    "build:css": "tailwindcss --postcss -i app/assets/stylesheets/application.scss -o ./app/assets/builds/application.css --minify",
+    "tailwind-config-viewer": "tailwind-config-viewer -p 3008 -c tailwind.config.js"
+  },
+  "devDependencies": {
+    "tailwind-config-viewer": "^1.7.1"
   }
 }
