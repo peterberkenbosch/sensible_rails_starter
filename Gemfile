@@ -84,11 +84,11 @@ group :development, :test do
   # RSpec for Rails (https://github.com/rspec/rspec-rails)
   gem "rspec-rails"
   # the instafailing RSpec progress bar formatter (https://github.com/thekompanee/fuubar)
-  gem "fuubar"
+  gem "fuubar", require: false
 
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem "simplecov", require: false
-  # Code coverage for JavaScript (
+
   # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
   gem "test-prof"
 
@@ -96,7 +96,7 @@ group :development, :test do
   gem "stackprof", ">= 0.2.9", require: false
 
   # Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
-  gem "appmap", groups: [:development, :test]
+  gem "appmap"
 end
 
 group :test do
@@ -106,6 +106,7 @@ group :test do
   gem "cuprite"
 end
 
+# Development tools & utilities
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   # A debugging tool for your Ruby on Rails applications. (https://github.com/rails/web-console)
@@ -119,6 +120,14 @@ group :development do
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
+  # Automatically reload Hotwire Turbo when app files are modified. (https://github.com/kirillplatonov/hotwire-livereload)
+  gem "hotwire-livereload", "~> 1.1"
+
+  # Pretty print Ruby objects with proper indentation and colors (https://github.com/awesome-print/awesome_print)
+  gem "awesome_print", "~> 1.9"
+
+  # Colorize printed text on ANSI terminals (https://github.com/sickill/rainbow)
+  gem "rainbow"
 end
 
 # Static code analysis, security and linting
