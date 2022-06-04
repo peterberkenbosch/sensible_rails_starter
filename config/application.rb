@@ -54,5 +54,10 @@ module SensibleRailsStarter
       config.system_spec true
       config.view_spec true
     end
+
+    # Load custom Rails Console configuration
+    console do
+      ARGV.push "-r", root.join("lib/console.rb")
+    end
   end
 end
