@@ -84,7 +84,7 @@ group :development, :test do
   # RSpec for Rails (https://github.com/rspec/rspec-rails)
   gem "rspec-rails"
   # the instafailing RSpec progress bar formatter (https://github.com/thekompanee/fuubar)
-  gem "fuubar"
+  gem "fuubar", require: false
 
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem "simplecov", require: false
@@ -96,7 +96,7 @@ group :development, :test do
   gem "stackprof", ">= 0.2.9", require: false
 
   # Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
-  gem "appmap", groups: [:development, :test]
+  gem "appmap"
 end
 
 group :test do
@@ -122,6 +122,10 @@ group :development do
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
   # Automatically reload Hotwire Turbo when app files are modified. (https://github.com/kirillplatonov/hotwire-livereload)
   gem "hotwire-livereload", "~> 1.1"
+
+  gem "awesome_print", "~> 1.9"
+
+  gem "rainbow"
 end
 
 # Static code analysis, security and linting

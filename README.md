@@ -108,7 +108,6 @@ x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the
 - [ ] CMS like landing, about, contact, T&C's and other pages
 - [ ] Stimulus helpers
 - [ ] [devise-specs](https://github.com/andrii/devise-specs) - Generates the Devise acceptance tests.
-- [ ] [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) -Live reload for Hotwire Rails apps.
 - [ ] [str_enum](https://github.com/ankane/str_enum) - String enums for Rails
 - [ ] [Awesome Print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style -- in full color and with proper indentation
 - [ ] [fasterer](https://github.com/DamirSvrtan/fasterer) - ⚡ Don't make your Rubies go fast. Make them go fasterer ™. ⚡

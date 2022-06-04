@@ -81,6 +81,7 @@ GEM
       rack
       reverse_markdown
     ast (2.4.2)
+    awesome_print (1.9.2)
     bcrypt (3.1.18)
     bindex (0.8.1)
     bootsnap (1.12.0)
@@ -355,6 +356,7 @@ DEPENDENCIES
   annotate_gem
   anyway_config
   appmap
+  awesome_print (~> 1.9)
   bootsnap
   brakeman
   bundler-audit
@@ -374,6 +376,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.3)
   rails_best_practices
+  rainbow
   redis (~> 4.0)
   reek
   rspec-rails
