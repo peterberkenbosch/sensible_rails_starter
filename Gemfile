@@ -123,8 +123,10 @@ group :development do
   # Automatically reload Hotwire Turbo when app files are modified. (https://github.com/kirillplatonov/hotwire-livereload)
   gem "hotwire-livereload", "~> 1.1"
 
+  # Pretty print Ruby objects with proper indentation and colors (https://github.com/awesome-print/awesome_print)
   gem "awesome_print", "~> 1.9"
 
+  # Colorize printed text on ANSI terminals (https://github.com/sickill/rainbow)
   gem "rainbow"
 end
 

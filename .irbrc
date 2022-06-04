@@ -1,7 +1,7 @@
 # Sources:
 # [Making Your Rails Console Interesting..](https://dev.to/thespectator/making-your-rails-console-interesting-pdc)
 
-require 'irb/completion'
+require "irb/completion"
 require "rainbow"
 require "awesome_print"
 
@@ -21,7 +21,7 @@ end
 # target log path for irb history
 def log_path
   rails_root = Rails.root
-  "#{rails_root}/log/.irb-save-history"        
+  "#{rails_root}/log/.irb-save-history"
 end
 
 def env_prompt
