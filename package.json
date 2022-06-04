@@ -23,6 +23,7 @@
     "tailwind-config-viewer": "tailwind-config-viewer -p 3008 -c tailwind.config.js"
   },
   "devDependencies": {
+    "standard": "^17.0.0",
     "tailwind-config-viewer": "^1.7.1"
   }
 }

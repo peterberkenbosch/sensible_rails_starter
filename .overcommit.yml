@@ -37,6 +37,10 @@ PreCommit:
   enabled: true
   command: ['standardrb', '--fix']
 
+  StandardJS:
+   enabled: true
+   command: [ 'standard', '--fix' ]
+
  BundlerAudit:
   enabled: true
   command: ['bundler-audit']
