@@ -67,16 +67,30 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
 
   # Devise helpers
+  config.include ActionView::RecordIdentifier
+  config.include ActionView::RecordIdentifier, type: :component
+
+  config.include ActiveSupport::Testing::TimeHelpers
+
+  config.include Anyway::Testing::Helpers
+
+  config.include Capybara::RSpecMatchers, type: :component
+
   config.include Devise::Test::ControllerHelpers, type: :controller
   config.include Devise::Test::IntegrationHelpers, type: :request
 
-  # FactoryBot helpers
-  config.include FactoryBot::Syntax::Methods
+  # config.include RequestSpecHelpers, type: :request
 
-  config.include ActionView::RecordIdentifier
+  # config.include StripAttributes::Matchers
+
+  # config.include ViewComponent::RenderPreviewHelper, type: :component
+  config.include ViewComponent::TestHelpers, type: :component
+
   config.include Warden::Test::Helpers
 
   config.include Rails.application.routes.url_helpers
-  # config.include ViewComponent::TestHelpers, type: :component
-  config.include Capybara::RSpecMatchers, type: :component
+  config.include Rails.application.routes.url_helpers, type: :component
+
+  # FactoryBot helpers
+  config.include FactoryBot::Syntax::Methods
 end
