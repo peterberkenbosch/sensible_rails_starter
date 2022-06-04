@@ -60,6 +60,8 @@ cd <app_name>
 
 ### Development
 
+- [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) - Live reload for Hotwire Rails apps.                   
+
 #### Testing
 
 - [RSpec](https://github.com/rspec/rspec-rails) - rspec-rails brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework, Minitest.
