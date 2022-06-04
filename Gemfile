@@ -89,6 +89,7 @@ group :development, :test do
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem "simplecov", require: false
 
+  # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
   gem "test-prof"
 
   # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
@@ -105,6 +106,7 @@ group :test do
   gem "cuprite"
 end
 
+# Development tools & utilities
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   # A debugging tool for your Ruby on Rails applications. (https://github.com/rails/web-console)
@@ -118,6 +120,7 @@ group :development do
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
   # Add comments to your Gemfile with each dependency's description. (https://github.com/ivantsepp/annotate_gem)
+  gem "hotwire-livereload", "~> 1.1"
 end
 
 # Static code analysis, security and linting
