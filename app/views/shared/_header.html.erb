@@ -1,8 +1,5 @@
 <header>
-	<h1><%= SensiblesConfig.app_name %></h1>
-	<p>
-	<%=	SensiblesConfig.app_description %>
-	</p>
+	<%= render Sensibles::AppNameComponent.new %>
 	<nav>
 		<%# Page.all.each do |page|  %>
 		<%# next unless page.visible %>

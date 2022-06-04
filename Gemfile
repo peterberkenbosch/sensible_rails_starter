@@ -77,6 +77,9 @@ gem "factory_bot_rails"
 # Configuration DSL for Ruby libraries and applications (http://github.com/palkan/anyway_config)
 gem "anyway_config"
 
+# View components for Rails (https://github.com/github/view_component)
+gem "view_component", "~> 2.56"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
