@@ -45,13 +45,10 @@ cd <app_name>
 ### Frontend
 
 - [Hotwire](https://hotwired.dev/) - an alternative approach to building modern web applications without using much JavaScript by sending HTML instead of JSON over the wire.
-   
   - [Turbo](https://turbo.hotwired.dev/) - The speed of a single-page web application without having to write any JavaScript.
-     
   - [Stimulus](https://stimulus.hotwired.dev/) - A modest JavaScript framework for the HTML you already have.
 
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML.
-     
   - [typography plugin](https://tailwindcss.com/docs/typography-plugin) - Beautiful typographic defaults for HTML you don't control.
   - [forms plugin](https://github.com/tailwindlabs/tailwindcss-forms) - A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
   - [aspect-ratio plugin](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - A plugin that provides a composable API for giving elements a fixed aspect ratio.
@@ -87,8 +84,7 @@ cd <app_name>
 #### Utilities
 
 - [overcommit](https://github.com/sds/overcommit) - Git hook manager
-- [Annotate (aka AnnotateModels)](https://github.com/ctran/annotate_models) - Annotate Rails classes with schema and routes info
-- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
+x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
 - [annotate_gem](https://github.com/ivantsepp/annotate_gem) - Add comments to your Gemfile with each dependency's description. ``
 ---
 
@@ -98,6 +94,7 @@ cd <app_name>
 - [brakeman](https://brakemanscanner.org) - Security vulnerability scanner for Ruby on Rails. 
 
 ## Coming soon...
+- [ ] [Utopia](https://utopia.fyi/) - Fluid responsive design
 - [ ] Friendly Id
 - [ ] ViewComponent
 - [ ] Lookbook
@@ -111,10 +108,15 @@ cd <app_name>
 - [ ] [devise-specs](https://github.com/andrii/devise-specs) - Generates the Devise acceptance tests.
 - [ ] [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) -Live reload for Hotwire Rails apps.
 - [ ] [str_enum](https://github.com/ankane/str_enum) - String enums for Rails
+- [ ] [Awesome Print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style -- in full color and with proper indentation
+- [ ] [fasterer](https://github.com/DamirSvrtan/fasterer) - ⚡ Don't make your Rubies go fast. Make them go fasterer ™. ⚡
+- [ ] [pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
+- [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
+- [ ] []
 
 ---
-
-## EXAMPLES
+                                
+## EXAMPLES               
 
 Would be nice to have several either included examples or Generators to show the use of the following;
 - Stimulus
@@ -139,13 +141,13 @@ Some form of in-app docs space.
 
 ## Contributions
 
-Contribution welcome 🤗
+Contributions welcome 🤗
 
 ---
 
 ## Alternatives
 
-> To our knowledge, these all feature Rails 7. If we have it wrong, please log an issue or a PR. ☺️
+> To our knowledge, the following work with Rails 7. If we have it wrong, please log an issue or a PR. ☺️
 
 #### excid3 (Chris) at GoRails
 - [Jumpstart](https://github.com/excid3/jumpstart) - Easily jumpstart a new Rails application with a bunch of great features by default
@@ -175,3 +177,7 @@ Contribution welcome 🤗
 #### Bullet Train, Inc.
 
 - [Bullet Train Application Template](https://github.com/bullet-train-co/bullet_train)`Previous PAID - Sponsorware now` - The Open Source Ruby on Rails SaaS Framework 
+        
+#### Raygun 
+
+- [Raygun](https://github.com/carbonfive/raygun) - Rails application generator that builds a new project skeleton configured with Carbon Five preferences and best practices baked right in. Spend less time configuring and more building cool features.

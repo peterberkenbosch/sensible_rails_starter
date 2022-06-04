@@ -88,8 +88,7 @@ group :development, :test do
 
   # Code coverage for Ruby (https://github.com/simplecov-ruby/simplecov)
   gem "simplecov", require: false
-  # Code coverage for JavaScript (
-  # Ruby applications tests profiling tools (http://github.com/test-prof/test-prof)
+
   gem "test-prof"
 
   # sampling callstack-profiler for ruby 2.2+ (http://github.com/tmm1/stackprof)
