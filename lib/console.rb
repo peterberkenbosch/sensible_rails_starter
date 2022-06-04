@@ -28,7 +28,7 @@ def log_path
 end
 
 def env_prompt
-  case
+  case Rails.env
   when "development"
     Rainbow("development").green
   when "production"
