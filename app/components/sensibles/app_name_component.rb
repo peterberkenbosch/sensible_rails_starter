@@ -4,7 +4,6 @@ class Sensibles::AppNameComponent < ViewComponent::Base
   def initialize
     @app_name =  SensiblesConfig.app_name
     @app_description = SensiblesConfig.app_description
-
     @title = title
     @description = description
   end
