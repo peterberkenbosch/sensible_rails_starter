@@ -74,7 +74,7 @@ cd <app_name>
 - [Faker](https://github.com/faker-ruby/faker) - Easily generate fake data.
 - [simplecov](https://github.com/simplecov-ruby/simplecov) - Code coverage for Ruby.
 
-#### Linting
+### Linting
 
 - [Standard - Ruby style guide, linter, and formatter](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer.
 
@@ -84,7 +84,7 @@ cd <app_name>
 - [traceroute](https://github.com/amatsuda/traceroute) - A Rake task that helps you find the dead routes and actions for your Rails app.
 - [rails_best_practices](http://rails-bestpractices.com) - a code metric tool for rails codes.
 
-#### Utilities
+### Utilities
 
 - [overcommit](https://github.com/sds/overcommit) - Git hook manager.
 - [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
