@@ -1,6 +1,8 @@
 # SensibleRails -  _Opininated Rails 7 Starter Template_
 
-> #### Focus on building and not on getting started.
+![rails image](docs/images/rails-image.png)    
+
+> #### 🚀 Focus on building stuff and not on the getting started part. 🚀
 
 ---
 
@@ -17,15 +19,15 @@
 ---
 
 ## Getting Started
- 
-- Click the [**_Use this template_**](https://github.com/davidteren/sensible_rails_starter/generate) button to create a clone of this repo in your Github account. 
-- Once you've git cloned your repo to your computer run the following;
+
+- Click the [**_Use this template_**](https://github.com/davidteren/sensible_rails_starter/generate) button to create a clone of this repo in your Github account.
+- Once you've git cloned your repo to your computer, run the following;
 
 ```bash
 cd <app_name>
 ./bin/respawn
 ```
-Then run the following to start the application
+Then run the following to start the application.
 
 ```bash
 ./bin/dev
@@ -35,11 +37,14 @@ Then run the following to start the application
 
 ## What's in the box
 
+> _“Good frameworks are extracted, not invented”_ - DHH
+
 ### Core
 
 - [Rails 7](https://rubyonrails.org/) - Compress the complexity of modern web apps.
+- [Ruby 3](https://www.ruby-lang.org) - A dynamic, open-source programming language focusing on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
-### Authentications & Authorization
+### Authentication & Authorization
 
 - [Devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
 
@@ -65,7 +70,7 @@ Then run the following to start the application
 
 ### Development
 
-- [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) - Live reload for Hotwire Rails apps.   
+- [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) - Live reload for Hotwire Rails apps.
 
 #### Testing
 
@@ -80,7 +85,7 @@ Then run the following to start the application
 - [Standard - Ruby style guide, linter, and formatter](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer.
 
 ### Code Quality
- 
+
 - [reek](https://github.com/troessner/reek) - Code smell detector for Ruby.
 - [traceroute](https://github.com/amatsuda/traceroute) - A Rake task that helps you find the dead routes and actions for your Rails app.
 - [rails_best_practices](http://rails-bestpractices.com) - a code metric tool for rails codes.
@@ -93,11 +98,11 @@ Then run the following to start the application
 
 ---
 
-### Dependancy Management
+### Dependency Management
 
-- [bundler-audit](https://github.com/rubysec/bundler-audit#readme) - Patch-level verification for Bundler. 
-- [brakeman](https://brakemanscanner.org) - Security vulnerability scanner for Ruby on Rails. 
-  
+- [bundler-audit](https://github.com/rubysec/bundler-audit#readme) - Patch-level verification for Bundler.
+- [brakeman](https://brakemanscanner.org) - Security vulnerability scanner for Ruby on Rails.
+
 ---
 
 ## Coming soon...
@@ -118,10 +123,10 @@ Then run the following to start the application
 - [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
 
 ---
-                                
-## EXAMPLES               
 
-Would be nice to have several either included examples or Generators to show the use of the following;
+## EXAMPLES
+
+It would be nice to have several either included examples or Generators to show the use of the following;
 - Stimulus
 - Turbo
 - RSpec
@@ -179,8 +184,8 @@ Contributions welcome 🤗
 
 #### Bullet Train, Inc.
 
-- [Bullet Train Application Template](https://github.com/bullet-train-co/bullet_train)`Previous PAID - Sponsorware now` - The Open Source Ruby on Rails SaaS Framework 
-        
-#### Raygun 
+- [Bullet Train Application Template](https://github.com/bullet-train-co/bullet_train)` Previously PAID - Sponsorware now` - The Open Source Ruby on Rails SaaS Framework
+
+#### Raygun
 
 - [Raygun](https://github.com/carbonfive/raygun) - Rails application generator that builds a new project skeleton configured with Carbon Five preferences and best practices baked right in. Spend less time configuring and more building cool features.
