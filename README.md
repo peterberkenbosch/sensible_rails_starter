@@ -53,6 +53,7 @@ cd <app_name>
   - [forms plugin](https://github.com/tailwindlabs/tailwindcss-forms) - A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
   - [aspect-ratio plugin](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - A plugin that provides a composable API for giving elements a fixed aspect ratio.
   - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for visually truncating text after a fixed number of lines.
+  - [tailwind-config-viewer](https://github.com/rogden/tailwind-config-viewer) - A local UI tool for visualizing your Tailwind CSS configuration file.
 
 - [ViewComponent](https://viewcomponent.org/) - A framework for creating reusable, testable & encapsulated view components, built to integrate seamlessly with Ruby on Rails.
   - [lookbook](https://github.com/allmarkedup/lookbook) - A native development UI for ViewComponent.
