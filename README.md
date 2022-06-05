@@ -33,8 +33,6 @@ Then run the following to start the application
 
 ---
 
-
-
 ## What's in the box
 
 ### Core
