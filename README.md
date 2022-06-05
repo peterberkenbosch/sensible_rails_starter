@@ -1,36 +1,39 @@
-# SensibleRails - Rails 7 Starter Template
+# SensibleRails -  _Opininated Rails 7 Starter Template_
 
-SensibleRails is Rails 7 template to help you bootstrap a new Ruby on Rails application and focus on development.
-
----   
-
-### RubyCI
-We recommend [RubyCI](https://ruby.ci/) for builds 
-
-![rspec](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/rspec)
-![simplecov](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/simplecov)
-
-![ruby_critic](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/ruby_critic)
-![reek](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/reek)
-
-![brakeman](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/brakeman)
-![bundler_audit](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/bundler_audit)
-
-![standard](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/standard)
+> #### Focus on building and not on getting started.
 
 ---
 
-### Usage:
+![rspec](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/rspec)
+![simplecov](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/simplecov)
+![ruby_critic](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/ruby_critic)
+![reek](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/reek)
+![brakeman](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/brakeman)
+![bundler_audit](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/bundler_audit)
+![standard](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/standard)
 
-```bash
-rails new <app_name> -d postgresql -j esbuild -c tailwind --skip-test -m "https://raw.githubusercontent.com/davidteren/basic_rails_starter_template/main/template.rb"
-```
+*_We recommend [RubyCI](https://ruby.ci/) for builds_
 
-Start the server, js build and css build process by simply running the following in the project root:
+---
+
+## Getting Started
+ 
+- Click the [**_Use this template_**](https://github.com/davidteren/sensible_rails_starter/generate) button to create a clone of this repo in your Github account. 
+- Once you've git cloned your repo to your computer run the following;
+
 ```bash
 cd <app_name>
+./bin/respawn
+```
+Then run the following to start the application
+
+```bash
 ./bin/dev
 ```
+
+---
+
+
 
 ## What's in the box
 
