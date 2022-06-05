@@ -54,6 +54,9 @@ cd <app_name>
   - [aspect-ratio plugin](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - A plugin that provides a composable API for giving elements a fixed aspect ratio.
   - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for visually truncating text after a fixed number of lines.
 
+- [ViewComponent](https://viewcomponent.org/) - A framework for creating reusable, testable & encapsulated view components, built to integrate seamlessly with Ruby on Rails.
+  - [lookbook](https://github.com/allmarkedup/lookbook) - A native development UI for ViewComponent
+
 ### Configuration
 
 - [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications
@@ -86,7 +89,7 @@ cd <app_name>
 #### Utilities
 
 - [overcommit](https://github.com/sds/overcommit) - Git hook manager
-x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
+- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
 - [annotate_gem](https://github.com/ivantsepp/annotate_gem) - Add comments to your Gemfile with each dependency's description. ``
 ---
 
@@ -98,8 +101,6 @@ x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the
 ## Coming soon...
 - [ ] [Utopia](https://utopia.fyi/) - Fluid responsive design
 - [ ] Friendly Id
-- [ ] ViewComponent
-- [ ] Lookbook
 - [ ] Interactor
 - [ ] Rails ERD
 - [ ] StandardJS
@@ -113,7 +114,6 @@ x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the
 - [ ] [fasterer](https://github.com/DamirSvrtan/fasterer) - ⚡ Don't make your Rubies go fast. Make them go fasterer ™. ⚡
 - [ ] [pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 - [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
-- [ ] []
 
 ---
                                 
