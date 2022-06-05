@@ -35,11 +35,14 @@ Then run the following to start the application
 
 ## What's in the box
 
+> _“Good frameworks are extracted, not invented”_ - DHH
+
 ### Core
 
 - [Rails 7](https://rubyonrails.org/) - Compress the complexity of modern web apps.
+- [Ruby 3](https://www.ruby-lang.org) - A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.
 
-### Authentications & Authorization
+### Authentication & Authorization
 
 - [Devise](https://github.com/heartcombo/devise) - Flexible authentication solution for Rails with Warden.
 
