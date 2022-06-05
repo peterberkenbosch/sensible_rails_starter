@@ -22,6 +22,13 @@ ignore_unreachable_actions:
 - devise/registrations#authenticate_admin!
 - app_tools/mains#authenticate_admin!
 - app_tools/styles#authenticate_admin!
+- view_components#render_in_layout_to_string
+- view_components#render_example_to_string
+- lookbook#index
+- lookbook/pages#index
+- lookbook/pages#show
+- lookbook/previews#index
+- lookbook/page#render_page
 
 ignore_unused_routes:
 - rails/conductor/action_mailbox/inbound_emails#edit
@@ -35,6 +42,8 @@ ignore_unused_routes:
 - devise/unlocks#show
 - devise/unlocks#create
 - health_check
+- /lookbook-cable
+- lookbook/application#index
 
 ignore_uninitialized_constant:
 - TestProf

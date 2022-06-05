@@ -17,4 +17,8 @@ Rails.application.routes.draw do
   get "styles", to: "app_tools/styles#index"
 
   get "/health_check", to: ->(_) { [200, {}, ["timestamp:#{Time.now.to_i}"]] }
+
+  if Rails.env.development?
+    mount Lookbook::Engine, at: "/lookbook"
+  end
 end

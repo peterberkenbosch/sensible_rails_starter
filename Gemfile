@@ -78,7 +78,10 @@ gem "factory_bot_rails"
 gem "anyway_config"
 
 # View components for Rails (https://github.com/github/view_component)
-gem "view_component", "~> 2.56"
+gem "view_component", require: "view_component/engine"
+
+# A native development UI for ViewComponent (https://github.com/allmarkedup/lookbook)
+gem "lookbook"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
