@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe Sensibles::AppNameComponent, type: :component do
+RSpec.describe Sensibles::Header::AppTitleComponent, type: :component do
   include Anyway::Testing::Helpers
 
   before :each do
