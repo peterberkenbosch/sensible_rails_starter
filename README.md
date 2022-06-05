@@ -1,6 +1,6 @@
 # SensibleRails -  _Opininated Rails 7 Starter Template_
 
-![rails image](docs/images/rails-image.png)    
+![rails image](docs/images/rails-image.PNG)    
 
 > #### 🚀 Focus on building stuff and not on the getting started part. 🚀
 
