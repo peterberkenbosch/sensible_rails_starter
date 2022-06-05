@@ -59,5 +59,7 @@ module SensibleRailsStarter
     console do
       ARGV.push "-r", root.join("lib/console.rb")
     end
+
+    config.view_component.preview_paths << "#{Rails.root}/spec/components/previews"
   end
 end

@@ -53,53 +53,55 @@ cd <app_name>
   - [forms plugin](https://github.com/tailwindlabs/tailwindcss-forms) - A plugin that provides a basic reset for form styles that makes form elements easy to override with utilities.
   - [aspect-ratio plugin](https://github.com/tailwindlabs/tailwindcss-aspect-ratio) - A plugin that provides a composable API for giving elements a fixed aspect ratio.
   - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for visually truncating text after a fixed number of lines.
+  - [tailwind-config-viewer](https://github.com/rogden/tailwind-config-viewer) - A local UI tool for visualizing your Tailwind CSS configuration file.
+
+- [ViewComponent](https://viewcomponent.org/) - A framework for creating reusable, testable & encapsulated view components, built to integrate seamlessly with Ruby on Rails.
+  - [lookbook](https://github.com/allmarkedup/lookbook) - A native development UI for ViewComponent.
 
 ### Configuration
 
-- [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications
+- [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications.
 
 ### Development
 
-- [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) - Live reload for Hotwire Rails apps.                   
+- [hotwire-livereload](https://github.com/kirillplatonov/hotwire-livereload) - Live reload for Hotwire Rails apps.   
 
 #### Testing
 
 - [RSpec](https://github.com/rspec/rspec-rails) - rspec-rails brings the RSpec testing framework to Ruby on Rails as a drop-in alternative to its default testing framework, Minitest.
 - [Fuubar](https://github.com/thekompanee/fuubar) - fuubar is an installing RSpec format that uses a progress bar instead of a string of letters and dots as feedback.
 - [factory_bot](https://github.com/thoughtbot/factory_bot) - A library for setting up Ruby objects as test data.
-- [Faker](https://github.com/faker-ruby/faker) - Easily generate fake data
-- [simplecov](https://github.com/simplecov-ruby/simplecov) - Code coverage for Ruby 
+- [Faker](https://github.com/faker-ruby/faker) - Easily generate fake data.
+- [simplecov](https://github.com/simplecov-ruby/simplecov) - Code coverage for Ruby.
 
+### Linting
 
-
-#### Linting
-
-- [Standard - Ruby style guide, linter, and formatter](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer
-                 
+- [Standard - Ruby style guide, linter, and formatter](https://github.com/testdouble/standard) - 🌟 Ruby Style Guide, with linter & automatic code fixer.
 
 ### Code Quality
  
-- [reek](https://github.com/troessner/reek) - Code smell detector for Ruby
-- [traceroute](https://github.com/amatsuda/traceroute) - A Rake task that helps you find the dead routes and actions for your Rails app
+- [reek](https://github.com/troessner/reek) - Code smell detector for Ruby.
+- [traceroute](https://github.com/amatsuda/traceroute) - A Rake task that helps you find the dead routes and actions for your Rails app.
 - [rails_best_practices](http://rails-bestpractices.com) - a code metric tool for rails codes.
 
-#### Utilities
+### Utilities
 
-- [overcommit](https://github.com/sds/overcommit) - Git hook manager
-x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
-- [annotate_gem](https://github.com/ivantsepp/annotate_gem) - Add comments to your Gemfile with each dependency's description. ``
+- [overcommit](https://github.com/sds/overcommit) - Git hook manager.
+- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
+- [annotate_gem](https://github.com/ivantsepp/annotate_gem) - Add comments to your Gemfile with each dependency's description.
+
 ---
 
-### dependancy Management
+### Dependancy Management
 
-- [bundler-audit](https://github.com/rubysec/bundler-audit#readme) - Patch-level verification for Bundler 
+- [bundler-audit](https://github.com/rubysec/bundler-audit#readme) - Patch-level verification for Bundler. 
 - [brakeman](https://brakemanscanner.org) - Security vulnerability scanner for Ruby on Rails. 
+  
+---
 
 ## Coming soon...
 - [ ] [Utopia](https://utopia.fyi/) - Fluid responsive design
 - [ ] Friendly Id
-- [ ] ViewComponent
-- [ ] Lookbook
 - [ ] Interactor
 - [ ] Rails ERD
 - [ ] StandardJS
@@ -113,7 +115,6 @@ x- [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the
 - [ ] [fasterer](https://github.com/DamirSvrtan/fasterer) - ⚡ Don't make your Rubies go fast. Make them go fasterer ™. ⚡
 - [ ] [pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 - [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
-- [ ] []
 
 ---
                                 

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Sensibles::AppNameComponent < ViewComponent::Base
+class Sensibles::Header::AppTitleComponent < ViewComponent::Base
   def initialize
     @app_name = SensiblesConfig.app_name
     @app_description = SensiblesConfig.app_description
