@@ -70,12 +70,11 @@ Then run the following to start the application.
     composable API for giving elements a fixed aspect ratio.
   - [line-clamp plugin](https://github.com/tailwindlabs/tailwindcss-line-clamp) - A plugin that provides utilities for
     visually truncating text after a fixed number of lines.
-  - [tailwind-config-viewer](https://github.com/rogden/tailwind-config-viewer) - A local UI tool for visualizing your
-    Tailwind CSS configuration file.
+  - [tailwind-config-viewer](https://github.com/rogden/tailwind-config-viewer) - A local UI tool for visualizing your Tailwind CSS configuration file. ([view at http://127.0.0.1:3008](http://127.0.0.1:3008/))
 
 - [ViewComponent](https://viewcomponent.org/) - A framework for creating reusable, testable & encapsulated view
   components, built to integrate seamlessly with Ruby on Rails.
-  - [lookbook](https://github.com/allmarkedup/lookbook) - A native development UI for ViewComponent.
+- [lookbook](https://github.com/allmarkedup/lookbook) - A native development UI for ViewComponent.
 
 - [Avo Admin](https://avohq.io/) - Configuration-based, no-maintenance, extendable Ruby on Rails admin
 ### Configuration
