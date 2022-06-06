@@ -15,6 +15,13 @@ detectors:
  UtilityFunction:
   exclude:
    - SessionHelpers#within_session
+   - UserFilter#apply
+
+ UnusedParameters:
+  exclude:
+  - UserFilter#apply
+
+
 
  # You can use filters to silence Reek warnings.
  # Either because you simply disagree with Reek (we are not the police) or

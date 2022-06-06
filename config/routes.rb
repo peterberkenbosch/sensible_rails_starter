@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
+  # mount Avo::Engine, at: Avo.configuration.root_path
+
+  authenticate :user do
+    mount Avo::Engine => "/avo"
+  end
+
   devise_for :users
+
   namespace :app_tools do
     get "styles/index"
     get "styles/tailwindcss"
