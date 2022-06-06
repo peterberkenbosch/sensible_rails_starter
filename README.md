@@ -1,8 +1,4 @@
-# SensibleRails
-
- _______________
-
-## _Opininated Rails 7 Starter Template_
+# SensibleRails - _Opininated Rails 7 Starter Template_
 
 ![rails image](docs/images/rails-image.PNG)
 
