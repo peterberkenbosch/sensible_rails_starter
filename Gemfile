@@ -78,7 +78,7 @@ gem "factory_bot_rails"
 gem "anyway_config"
 
 # View components for Rails (https://github.com/github/view_component)
-gem "view_component", require: "view_component/engine"
+gem "view_component"
 
 # A native development UI for ViewComponent (https://github.com/allmarkedup/lookbook)
 gem "lookbook"
