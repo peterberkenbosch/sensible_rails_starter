@@ -42,3 +42,5 @@
 
 /config/*.local.yml
 /config/credentials/local.*
+
+.irb_history
