@@ -77,6 +77,7 @@ Then run the following to start the application.
   components, built to integrate seamlessly with Ruby on Rails.
   - [lookbook](https://github.com/allmarkedup/lookbook) - A native development UI for ViewComponent.
 
+- [Avo Admin](https://avohq.io/) - Configuration-based, no-maintenance, extendable Ruby on Rails admin
 ### Configuration
 
 - [Anyway Config](https://github.com/palkan/anyway_config) - Configuration library for Ruby gems and applications.
@@ -113,6 +114,7 @@ Then run the following to start the application.
 - [letter_opener](https://github.com/ryanb/letter_opener) - Preview mail in the browser instead of sending.
 - [annotate_gem](https://github.com/ivantsepp/annotate_gem) - Add comments to your Gemfile with each dependency's
   description.
+- [Awesome Print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style -- in full color and with proper indentation.
 
 ---
 
@@ -130,15 +132,10 @@ Then run the following to start the application.
 - [ ] Interactor
 - [ ] Rails ERD
 - [ ] StandardJS
-- [ ] Avo Admin
-- [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails
-  console by environment
+- [ ] [Customised IRB](https://gist.github.com/swanson/3ca98caff43d52f62b4b99f6f2c7444c) - .irbrc color coding Rails console by environment
 - [ ] CMS like landing, about, contact, T&C's and other pages
 - [ ] Stimulus helpers
-- [ ] [devise-specs](https://github.com/andrii/devise-specs) - Generates the Devise acceptance tests.
 - [ ] [str_enum](https://github.com/ankane/str_enum) - String enums for Rails
-- [ ] [Awesome Print](https://github.com/awesome-print/awesome_print) - Pretty print your Ruby objects with style -- in
-  full color and with proper indentation
 - [ ] [fasterer](https://github.com/DamirSvrtan/fasterer) - ⚡ Don't make your Rubies go fast. Make them go fasterer ™. ⚡
 - [ ] [pghero](https://github.com/ankane/pghero) - A performance dashboard for Postgres
 - [ ] [dexter](https://github.com/ankane/dexter) - The automatic indexer for Postgres
