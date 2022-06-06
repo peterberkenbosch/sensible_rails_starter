@@ -83,6 +83,12 @@ gem "view_component"
 # A native development UI for ViewComponent (https://github.com/allmarkedup/lookbook)
 gem "lookbook"
 
+# A comprehensive slugging and pretty-URL plugin. (https://github.com/norman/friendly_id)
+gem "friendly_id", "~> 5.4"
+
+# Configuration-based, no-maintenance, extendable Ruby on Rails admin panel framework. (https://avohq.io)
+gem "avo", "~> 2.7"
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   # Debugging functionality for Ruby (https://github.com/ruby/debug)
