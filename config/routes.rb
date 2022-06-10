@@ -26,6 +26,6 @@ Rails.application.routes.draw do
   get "/health_check", to: ->(_) { [200, {}, ["timestamp:#{Time.now.to_i}"]] }
 
   # if Rails.env.development?
-    mount Lookbook::Engine, at: "/lookbook"
+  mount Lookbook::Engine, at: "/lookbook"
   # end
 end
