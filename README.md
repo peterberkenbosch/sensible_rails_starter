@@ -10,12 +10,12 @@
 ![simplecov](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/simplecov)
 ![ruby_critic](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/ruby_critic)
 ![reek](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/reek)
- ![brakeman](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/brakeman)
- ![bundler_audit](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/bundler_audit)
+![brakeman](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/brakeman)
+![bundler_audit](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/bundler_audit)
 ![standard](https://ruby.ci/badges/44eb0fcb-d1a2-4c42-a801-ad8d8f096868/standard)
-> 
->   [![img.png](docs/images/rubyci.png)](https://ruby.ci/)
->  
+>
+>  [![img.png](docs/images/rubyci.png)](https://ruby.ci/)
+>
 > _We highly recommend [RubyCI](https://ruby.ci/) for builds_
 
 --- 
@@ -41,11 +41,11 @@ Then run the following to start the application.
 
 ## What's in the box
 
-> _“Good frameworks are extracted, not invented”_ - DHH
+> _"Good frameworks are extracted, not invented"_ - DHH
 
 ### Read the Gemfiles
 
-We have two Gemfiles. Both Gemfiles are annotaed with the description of what's included and links to each Gem's homepage for further details.
+We have two Gemfiles. Both Gemfiles are annotated with the description and links to each Gem's homepage for further details.
 
 - The default [`Gemfile`](Gemfile) contains all the `production` group Gems.
 
@@ -60,8 +60,7 @@ We have two Gemfiles. Both Gemfiles are annotaed with the description of what's 
 Contributions welcome 🤗
 
 
- > Any contribution that aligns with the vision of the SensibleRails Starter Template is welcome. 
-> 
-> **Note** that some implementaions will remain trunk based so users have the option of including them or not. 
+> Any contribution that aligns with the vision of the SensibleRails Starter Template is welcome.
+>
+> **Note** that some implementations will remain trunk-based, so users have the option of including them or not.
 ---
-
