@@ -14,14 +14,14 @@
 - [ ] Add a starter script that moves the readme into `docs/sensibles/` and initializes a new readme in the root for users.
 - [ ] Add a way to test the load performance of all the additional Gems
 - [ ] Impersanation in Auth - for devs to check a users account.
-- [ ] Finish the SimpleCSS like base styling implementation 
+- [ ] Finish the SimpleCSS like base styling implementation
 - [ ] Admin Styling page for theme selections and other dymanic style options.
-- [ ] Look into persistent of custom Tailwind config and styles/themes  
+- [ ] Look into persistent of custom Tailwind config and styles/themes
 - [ ] Look into export of custom Tailwind config and styles/themes
 - [ ] look into a subdomain solution
 - [ ] OAuth2?
 - [ ] Notion API integration
-- [ ] Payment soluions - International and South African
+- [ ] Payment solutions - International and South African
 ---
 
 ## Ideas
@@ -38,13 +38,12 @@ It would be nice to have several either included examples or Generators to show 
 
 ## Ideas for Docs
 
-Some form of in-app docs space.
+In-app docs space.
 
 - Docs for the usage of this template
 - Docs in directories explaining stuff & links to good resources
 - Docs where the dev(s) can add their stuff
 
-> Maybe there's a neat lib that can be used
+> Maybe there's a neat lib for this
       
 ---
- 
