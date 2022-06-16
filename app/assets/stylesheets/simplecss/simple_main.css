@@ -1,3 +1,6 @@
+
+@import "simpletails_color_select.css";
+
 html {
   /* Set the font globally */
   font-family: var(--sans-font);
