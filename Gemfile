@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ##############################
 ### Core
 ##############################
-ruby "3.0.3"
+ruby "3.1.2"
 # Full-stack web application framework. (https://rubyonrails.org)
 gem "rails", "~> 7.0.3"
 # Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
