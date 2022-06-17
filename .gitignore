@@ -44,4 +44,4 @@
 /config/credentials/local.*
 
 .irb_history
-/config/credentials/production.key
+/config/credentials/*.key
