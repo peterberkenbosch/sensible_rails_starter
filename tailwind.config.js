@@ -11,16 +11,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: 'var(--bg)',
-        'accent-bg': 'var(--accent-bg)',
-        text: 'var(--text)',
-        'text-light': 'var(--text-light)',
-        border: 'var(--border)',
-        accent: 'var(--accent)',
-        code: 'var(--code)',
-        preformatted: 'var(--preformatted)',
-        marked: 'var(--marked)',
-        disabled: 'var(--disabled)',
+        bg: '#0f172a',
+       "accent-bg": '#1e293b',
+        text: '#f8fafc' ,
+        "text-light": '#f1f5f9',
+        border: '#cbd5e1',
+        accent: '#0ea5e9',
+        code: '#ef4444',
+        preformatted: '#94a3b8',
+        marked: '#fdba74',
+        disabled: '#94a3b8',
       }
     }
   },
