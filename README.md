@@ -53,7 +53,7 @@ We have two Gemfiles. Both Gemfiles are annotated with the description and links
 
 ## Alternatives
 
-[See a list of alternatives Rails 7 template here](sensibles/alternatives.md)
+[See a list of alternative Rails 7 templats here](sensibles/alternatives.md)
 
 ## Contributions
 
