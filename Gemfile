@@ -132,6 +132,7 @@ group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   # A debugging tool for your Ruby on Rails applications. (https://github.com/rails/web-console)
   gem "web-console"
+  # Profiles loading speed for rack applications. (https://miniprofiler.com)
   gem "rack-mini-profiler"
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
