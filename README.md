@@ -45,11 +45,7 @@ Then run the following to start the application.
 
 ### Read the Gemfiles
 
-We have two Gemfiles. Both Gemfiles are annotated with the description and links to each Gem's homepage for further details.
-
-- The default [`Gemfile`](Gemfile) contains all the `production` group Gems.
-
-- The [`config/sensibles/Gemfile`]("config/sensibles/Gemfile") contains all the `development` & `test` group Gems.
+The Gemfile is annotated with the description and links to each Gem's homepage for further details.
 
 ## Alternatives
 
