@@ -1,10 +1,13 @@
 # 'name' should be the same as the code repo name.
-name: my_project
+name: sesible_rails_starter
 packages:
+# Paths
 - path: app/controllers
 - path: app/models
 - path: app/views
 - path: lib
-# Include the gems that you want to see in the dependency maps.
-- gem: devise
-                                               
+- path: app/components
+# Gems
+#- gem: devise
+#- gem: activerecord
+
