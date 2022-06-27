@@ -7,6 +7,7 @@
 require "cucumber/rails"
 require "email_spec/cucumber"
 require "capybara-screenshot/cucumber"
+require "factory_bot"
 
 # frozen_string_literal: true
 
