@@ -13,6 +13,7 @@ RSpec.configure do |config|
     end
 
     $stdout.puts "\n🐢  Precompiling assets.\n"
+    # TODO: - silence the output of all the INFO -- : Writing logs.
     original_stdout = $stdout.clone
 
     start = Time.current
