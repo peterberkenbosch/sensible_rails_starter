@@ -37,11 +37,34 @@ Then run the following to start the application.
 ./bin/dev
 ```
 
+ ---
+
+### Using overcommit
+          
+[overcommit](https://github.com/sds/overcommit) a fully configurable and extendable Git hook manager is included.
+ When enabled the hooks will run each time a git commit is made. If any of the checks fail the commit will be ignored and the erros will be shown. 
+
+Enable overcommit
+
+```bash
+ overcommit --sign && overcommit --sign pre-commit
+````
+
+Run overcommit
+```bash
+ overcommit --run
+````
+ 
+You should see the following
+![](docs/images/overcommit-run.png)
+
+The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.yml) 
+
 ---
 
 ## What's in the box
 
-> _"Good frameworks are extracted, not invented"_ - DHH
+> _"Good frameworks are extracted, not invented"_ - David Heinemeier Hansson
 
 ### Read the Gemfiles
 
@@ -59,4 +82,5 @@ Contributions welcome 🤗
 > Any contribution that aligns with the vision of the SensibleRails Starter Template is welcome.
 >
 > **Note** that some implementations will remain trunk-based, so users have the option of including them or not.
+
 ---
