@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-# The appmap gem is the first gem in the file so it ca record other gems
+# The appmap gem is the first gem in the file so it can record other gems
 group :development, :test do
   # Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
   gem "appmap"
@@ -140,6 +140,7 @@ group :test do
   # Extracting `assigns` and `assert_template` from ActionDispatch. (https://github.com/rails/rails-controller-testing)
   gem "rails-controller-testing"
   # Library for stubbing HTTP requests in Ruby. (http://github.com/bblimke/webmock)
+  # Library for stubbing HTTP requests in Ruby. (https://github.com/bblimke/webmock)
   gem "webmock"
   # Easily test email in RSpec, Cucumber or Minitest (http://github.com/email-spec/email-spec/)
   gem "email_spec"

@@ -88,11 +88,22 @@ Run overcommit
 ````
 
 You should see the following
-![](docs/images/overcommit-run.png)
+![pre-commit hooks image](docs/images/overcommit-run.png)
 
 The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.yml)
 
+
+> **Troubleshooting Overcommit**
+    <details>
+      <summary>click for more</summary>
+> 
+>  If you get errors try running the following anf then the above steps.
+>     
+>     overcommit --uninstall` 
+
+
 ---
+
 
 ## What's in the box
 
