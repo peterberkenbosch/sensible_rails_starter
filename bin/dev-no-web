@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Ideal for running non web processes. 
+# This way you IDE runs the web process in debug mode.
+
+if ! command -v foreman &> /dev/null
+then
+  echo "Installing foreman..."
+  gem install foreman
+fi
+
+foreman start -f Procfile.dev.no-web "$@"

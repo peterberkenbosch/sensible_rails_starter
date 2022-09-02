@@ -61,5 +61,8 @@ module SensibleRailsStarter
     end
 
     config.view_component.preview_paths << "#{Rails.root}/spec/components/previews"
+
+    config.hosts << ".lvh.me"
+    config.hosts << "127.0.0.1"
   end
 end

@@ -1,0 +1,16 @@
+@layer base {
+
+  :root {
+   
+    --bg: 15 23 42;
+    --accent-bg: 30 41 59;
+    --text: 248 250 252;
+    --text-light: 241  245 249;
+    --border: 203 213 225;
+    --accent: 14 165 233;
+    --code: 239, 68, 68;
+    --preformatted: 148, 163, 184;
+    --marked: 253 186 116;
+    --disabled: 30 41 59;
+  }
+}

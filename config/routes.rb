@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   namespace :app_tools do
-    get "styles/index"
+    get "styles/simple_tails"
     get "styles/tailwindcss"
   end
 
@@ -23,7 +23,7 @@ Rails.application.routes.draw do
 
   get "app_tools", to: "app_tools/mains#index"
   get "tools", to: "app_tools/mains#index"
-  get "styles", to: "app_tools/styles#index"
+  get "simple_tails", to: "app_tools/styles#simple_tails"
 
   get "/health_check", to: ->(_) { [200, {}, ["timestamp:#{Time.now.to_i}"]] }
 

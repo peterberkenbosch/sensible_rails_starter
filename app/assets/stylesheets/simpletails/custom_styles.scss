@@ -1,0 +1,60 @@
+@layer base {
+
+  .post-link {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+
+  .meta {
+    @apply bg-text-light text-[1rem] ;
+  }
+
+  .blog-item {
+    @apply mt-4;
+  }
+
+  nav a.current {
+    @apply  border-accent !important ;
+/*    color: var(--accent) !important;
+    border-color: var(--accent) !important;*/
+  }
+
+  .notice {
+    @apply p-6 my-8 mx-0 leading-7 break-words rounded border-2 border-solid box-border border-border bg-accent-bg
+  }
+
+  .medium {
+    font-size: 1.4rem;
+  }
+
+  .small {
+    font-size: 1rem;
+  }
+
+  .button {
+    @apply bg-accent text-bg;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.7rem 0.9rem;
+    margin: 0.5rem 0;
+  }
+
+  .button:hover,
+  .button:focus {
+    filter: brightness(1.4);
+    cursor: pointer;
+  }
+
+  .icon {
+    vertical-align: sub;
+    padding-right: .25rem;
+    display: inline-block;
+    width: 1em;
+    height: 1.3em;
+    margin-right: 0.2rem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+}
