@@ -163,8 +163,6 @@ group :development do
   gem "rack-mini-profiler"
   # Preview mail in browser instead of sending. (https://github.com/ryanb/letter_opener)
   gem "letter_opener"
-  # Automatically reload Hotwire Turbo when app files are modified. (https://github.com/kirillplatonov/hotwire-livereload)
-  gem "hotwire-livereload", "~> 1.1"
   # Pretty print Ruby objects with proper indentation and colors (https://github.com/awesome-print/awesome_print)
   gem "awesome_print", "~> 1.9"
   # Colorize printed text on ANSI terminals (https://github.com/sickill/rainbow)
@@ -198,3 +196,9 @@ group :development do
   # YAML lint checker
   gem "yamllint"
 end
+
+# Use Vite in Rails and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
+gem "vite_rails", "~> 3.0"
+
+# Use Vite in Ruby and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
+gem "vite_ruby", "~> 3.2"

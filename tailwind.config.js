@@ -3,10 +3,13 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
-    './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',
     './app/assets/stylesheets/**/*.css',
-    './app/javascript/**/*.js',
+    './app/views/**/*.{html,html.erb,erb}',
+    './app/views/devise/**/*.{html,html.erb,erb}',
+    './app/frontend/components/**/*.{vue,js,ts,jsx,tsx}',
+    './app/frontend/**/*.{vue,js,ts,jsx,tsx}',
+    './app/**/*.{vue,js,ts,jsx,tsx}',
   ],
   theme: {
     fontFamily: {
