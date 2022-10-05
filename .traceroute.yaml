@@ -2,6 +2,8 @@ ignore_unreachable_actions:
 - action_mailbox/ingresses/mandrill/inbound_emails#health_check
 - active_storage/representations/proxy#send_stream
 - active_storage/blobs/proxy#send_stream
+- active_storage/blobs/proxy#new_controller_thread
+- active_storage/representations/proxy#new_controller_thread
 - application#authenticate_admin!
 - home#authenticate_admin!
 - ^devise\/

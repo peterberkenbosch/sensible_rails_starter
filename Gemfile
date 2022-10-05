@@ -41,13 +41,13 @@ gem "devise", "~> 4.8"
 # Sprockets Rails integration (https://github.com/rails/sprockets-rails)
 gem "sprockets-rails"
 # Bundle and transpile JavaScript in Rails with esbuild, rollup.js, or Webpack. (https://github.com/rails/jsbundling-rails)
-gem "jsbundling-rails"
+# gem "jsbundling-rails"
 # The speed of a single-page web application without having to write any JavaScript. (https://github.com/hotwired/turbo-rails)
 gem "turbo-rails"
 # A modest JavaScript framework for the HTML you already have. (https://stimulus.hotwired.dev)
 gem "stimulus-rails"
 # Bundle and process CSS with Tailwind, Bootstrap, PostCSS, Sass in Rails via Node.js. (https://github.com/rails/cssbundling-rails)
-gem "cssbundling-rails"
+# gem "cssbundling-rails"
 # View components for Rails (https://github.com/github/view_component)
 gem "view_component"
 # A native development UI for ViewComponent (https://github.com/allmarkedup/lookbook)
