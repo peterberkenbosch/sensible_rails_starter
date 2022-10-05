@@ -78,11 +78,6 @@ GEM
       bundler (>= 1.1)
     anyway_config (2.3.0)
       ruby-next-core (>= 0.14.0)
-    appmap (0.93.1)
-      activesupport
-      method_source
-      rack
-      reverse_markdown
     ast (2.4.2)
     avo (2.16.0)
       active_link_to
@@ -398,8 +393,6 @@ GEM
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
-    reverse_markdown (2.1.1)
-      nokogiri
     rexml (3.2.5)
     rouge (4.0.0)
     rspec-core (3.11.0)
@@ -523,7 +516,6 @@ DEPENDENCIES
   annotate
   annotate_gem
   anyway_config
-  appmap
   avo
   awesome_print (~> 1.9)
   bootsnap

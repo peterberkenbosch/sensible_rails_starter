@@ -12,8 +12,7 @@ RSpec.configure do |config|
       next
     end
 
-    $stdout.puts "\n🐢  Precompiling assets.\n"
-    # TODO: - silence the output of all the INFO -- : Writing logs.
+    $stdout.puts "\n🐢 Precompiling assets.\n"
     original_stdout = $stdout.clone
 
     start = Time.current
@@ -22,7 +21,7 @@ RSpec.configure do |config|
 
       require "rake"
       Rails.application.load_tasks
-      Rake::Task["assets:precompile"].execute
+      Rake::Task["vite:build"].execute
     ensure
       $stdout.reopen(original_stdout)
       $stdout.puts "Finished in #{(Time.current - start).round(2)} seconds ⏱"

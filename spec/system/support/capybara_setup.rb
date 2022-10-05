@@ -23,7 +23,8 @@ Capybara.default_normalize_ws = true
 Capybara.default_selector = :id
 
 # Where to store artifacts (e.g. screenshots, downloaded files, etc.)
-Capybara.save_path = ENV.fetch("CAPYBARA_ARTIFACTS", "./tmp/capybara")
+# Capybara.save_path = ENV.fetch("CAPYBARA_ARTIFACTS", "./tmp/capybara")
+Capybara.save_path = Rails.root.join("tmp", "capybara") unless File.exist?(Capybara.save_path)
 
 Capybara.singleton_class.prepend(Module.new do
   attr_accessor :last_used_session

@@ -3,12 +3,6 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
-# The appmap gem is the first gem in the file so it can record other gems
-group :development, :test do
-  # Record the operation of a Ruby program, using the AppLand 'AppMap' format. (https://github.com/applandinc/appmap-ruby)
-  gem "appmap"
-end
-
 ##############################
 ### Core
 ##############################
