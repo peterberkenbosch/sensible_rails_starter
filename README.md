@@ -99,7 +99,7 @@ The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.ym
 > 
 >  If you get errors try running the following anf then the above steps.
 >     
->     overcommit --uninstall` 
+>     overcommit --uninstall
 
 
 ---
