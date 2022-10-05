@@ -5,9 +5,9 @@ module Sensibles
     class AppTitleComponent < ViewComponent::Base
       attr_reader :app_name, :app_description
 
-      def initialize
-        @app_name = SensiblesConfig.app_name
-        @app_description = SensiblesConfig.app_description
+      def initialize(app_name: SensiblesConfig.app_name, app_description: SensiblesConfig.app_description)
+        @app_name = app_name
+        @app_description = app_description
         @title = title
         @description = description
       end
