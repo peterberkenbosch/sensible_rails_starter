@@ -31,7 +31,7 @@
 </details>
 
 > NB: Ruby.ci will be deprecated soon. We are looking at alternative CI options.
-
+> Please suggest via PR's or issues.
 --- 
 
 <details open="">
