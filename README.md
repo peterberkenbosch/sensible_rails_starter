@@ -30,6 +30,8 @@
 
 </details>
 
+> NB: Ruby.ci will be deprecated soon. We are looking at alternative CI options.
+
 --- 
 
 <details open="">
