@@ -3,7 +3,7 @@ class AppTools::StylesController < ApplicationController
 
   # layout "app_tools"
   def simple_tails
-    render layout: "simple_tails"
+
   end
 
   def tailwindcss

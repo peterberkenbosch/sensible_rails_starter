@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
   <%= render 'layouts/head' %>
-  <body class="text-white">
-    <%= render 'shared/header' %>
-    <main>
-      <%= render 'layouts/flash' %>
-      <%= yield %>
-    </main>
-    <%= render 'shared/footer' %>
+  <body>
+  <header>
+    <nav>
+      <%= link_to "Home", "/"%>
+      <%= link_to "Services", "#" %>
+      <%= link_to "Blog", "" %>
+      <%= link_to "About", "#" %>
+      <%= link_to "Contact", "#" %>
+      <% if user_signed_in? %>
+        <%= link_to "Account", edit_user_registration_path %>
+        <%= link_to 'Logout', destroy_user_session_path, data: { turbo_method: :delete } %>
+      <% else %>
+        <%= link_to "Sign Up", new_user_registration_path %>
+        <%= link_to "Login", new_user_session_path %>
+      <% end %>
+    </nav>
+    <h1 class="">SimpleTails</h1>
+    <p>Build fast using symantic HTML tags in Rails</p>
+  </header>
+  <main class="simple-tails">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <%= yield %>
+  </main>
   </body>
 </html>

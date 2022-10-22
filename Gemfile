@@ -7,9 +7,11 @@ ruby "3.1.2"
 ### Core
 ##############################
 # Full-stack web application framework. (https://rubyonrails.org)
-gem "rails", "~> 7.0.3.1"
+# gem "rails", "~> 7.0.3.1"
+# Use Rails edge vesion
+gem 'rails', git: 'https://github.com/rails/rails.git'
 # Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
-gem "puma", "~> 5.0"
+gem "puma"
 
 ##############################
 ### Data

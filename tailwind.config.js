@@ -21,7 +21,18 @@ module.exports = {
     },
     extend: {
       colors: {
-      },
+        theme: {
+          bg: 'var(--bg)',
+          'accent-bg': 'var(--accent-bg)',
+          text: 'var(--text)',
+          'text-light': 'var(--text-light)',
+          border: 'var(--border)',
+          accent: 'var(--accent)',
+          code: 'var(--code)',
+          preformatted: 'var(--pre)',
+          disabled: 'var(--disabled)',
+        }
+      }
     },
   },
   corePlugins: {
