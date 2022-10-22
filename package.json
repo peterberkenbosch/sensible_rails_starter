@@ -16,7 +16,8 @@
     "postcss-preset-env": "^7.7.0",
     "sass": "^1.54.9",
     "tailwindcss": "^3.1.8",
-    "tailwindcss-stimulus-components": "^3.0.4"
+    "tailwindcss-stimulus-components": "^3.0.4",
+    "vite": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^8.23.1",
@@ -27,7 +28,6 @@
     "prettier": "^2.7.1",
     "standard": "^17.0.0",
     "tailwind-config-viewer": "^1.7.1",
-    "vite": "^3.0.0",
     "vite-plugin-full-reload": "^1.0.4",
     "vite-plugin-ruby": "^3.1.0",
     "vite-plugin-stimulus-hmr": "^3.0.0"
