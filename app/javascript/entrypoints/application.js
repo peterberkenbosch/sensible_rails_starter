@@ -1,7 +1,7 @@
 import "@hotwired/turbo-rails"
 import "../controllers"
 
-console.log('Vite ⚡️ Rails')
-
 import * as Turbo from '@hotwired/turbo'
+
+console.log('Vite ⚡️ Rails')
 Turbo.start()

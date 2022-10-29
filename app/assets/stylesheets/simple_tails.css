@@ -161,6 +161,10 @@
     @apply cursor-not-allowed bg-theme-accent-bg !important;;
   }
 
+  fieldset {
+    @apply text-theme-text
+  }
+
   body > header {
     @apply bg-theme-accent-bg border-b-[1px] border-gray-500 text-center px-2 pb-8;
     grid-column: 1 / -1;

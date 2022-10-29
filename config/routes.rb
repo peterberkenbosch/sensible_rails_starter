@@ -30,4 +30,9 @@ Rails.application.routes.draw do
   # if Rails.env.development?
   mount Lookbook::Engine, at: "/lookbook"
   # end
+
+  devise_scope :user do
+    get "/users/sign_out", as: "sign_out", to: "devise/sessions#destroy"
+  end
+
 end

@@ -1,3 +1,2 @@
-js: yarn build --watch
-css: yarn build:css --watch
-config: yarn tailwind-config-viewer
+vite: bin/vite dev --clobber
+tailwind-config: yarn tailwind-config-viewer -p 3008
