@@ -72,5 +72,6 @@ module SensibleRailsStarter
     config.hosts << ".lvh.me"
     config.hosts << "127.0.0.1"
     config.hosts << "0.0.0.0"
+    config.hosts << "sensible-rails-starter.herokuapp.com"
   end
 end
