@@ -14,7 +14,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ["BlinkMacSystemFont", "Avenir Next", "Avenir",
+      'sans': ['Inter var',"BlinkMacSystemFont", "Avenir Next", "Avenir",
         "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Arial", "Helvetica",
         "Helvetica Neue", "sans-serif"],
       'mono': ["Consolas", "Menlo", "Monaco", "Andale Mono", "Ubuntu Mono", "monospace"]

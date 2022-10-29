@@ -1,5 +1,5 @@
 default: &default
-  app_name: "SensibleRailsStarter"
+  app_name: "SensibleRails"
   app_description: "Get building fasterer..."
   app_host: "local"
   app_port: "3000"
@@ -13,4 +13,3 @@ test:
 
 production:
   <<: *default
-  
