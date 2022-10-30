@@ -225,14 +225,14 @@
   <% end %>
   <p>
     <%= form.label :select_one_or_more %>
-    <% @cities = [
+    <% cities = [
 			{id: 1, name: "Berlin"},
 			{id: 2, name: "Chicago"},
 			{id: 3, name: "Madrid"},
 			{id: 4, name: "Cape Town"}
 		].collect { |u| [u[:name], u[:id]] } %>
     <%= select_tag :city,
-			options_for_select(@cities),
+			options_for_select(cities),
 			multiple: true %>
   </p>
   <div class="checkbox-group">

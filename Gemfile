@@ -9,6 +9,7 @@ ruby "3.1.2"
 # Full-stack web application framework. (https://rubyonrails.org)
 # gem "rails", "~> 7.0.3.1"
 # Use Rails edge vesion
+# Full-stack web application framework. (https://rubyonrails.org)
 gem "rails", git: "https://github.com/rails/rails.git"
 # Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
 gem "puma"
@@ -45,6 +46,7 @@ gem "stimulus-rails"
 # Bundle and process CSS with Tailwind, Bootstrap, PostCSS, Sass in Rails via Node.js. (https://github.com/rails/cssbundling-rails)
 # gem "cssbundling-rails"
 # View components for Rails (https://github.com/github/view_component)
+# A framework for building reusable, testable & encapsulated view components in Ruby on Rails. (https://viewcomponent.org)
 gem "view_component"
 # A native development UI for ViewComponent (https://github.com/allmarkedup/lookbook)
 gem "lookbook"
@@ -87,7 +89,8 @@ gem "avo"
 ##############################
 # APM
 ##############################
-gem 'appsignal'
+# Logs performance and exception data from your app to appsignal.com (https://github.com/appsignal/appsignal-ruby)
+gem "appsignal"
 
 ##############################
 # Development & Test
@@ -131,10 +134,12 @@ group :test do
   # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
   # gem "capybara"
   # The released vbuersion of Capybara doesn’t support Puma 6
+  # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
   gem "capybara", git: "https://github.com/teamcapybara/capybara.git"
   # Headless Chrome driver for Capybara (https://github.com/rubycdp/cuprite)
   gem "cuprite"
   # cucumber-rails-2.5.1 (https://cucumber.io)
+  # cucumber-rails-2.6.1 (https://cucumber.io)
   gem "cucumber-rails", require: false
   # Strategies for cleaning databases. Can be used to ensure a clean slate for testing. (https://github.com/DatabaseCleaner/database_cleaner)
   gem "database_cleaner"
@@ -203,5 +208,3 @@ group :development do
   # YAML lint checker
   gem "yamllint"
 end
-
-

@@ -19,7 +19,6 @@ Rails.application.routes.draw do
   # AppTools
   #####################################
 
-
   namespace :app_tools do
     resources :mains, only: [:index]
   end

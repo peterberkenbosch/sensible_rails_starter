@@ -9,8 +9,8 @@ ignore_unreachable_actions:
 - ^devise\/
 - ^devise
 - app_tools/mains#authenticate_admin!
-- app_tools/styles#authenticate_admin!
-- view_components#render_in_layout_to_string
+- app_tools/simple_tails#authenticate_admin!
+- view_components#render_in_layout_to_stringk
 - view_components#render_example_to_string
 - ^lookbook\/
 - ^lookbook
