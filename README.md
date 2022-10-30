@@ -25,6 +25,12 @@
 
 - [Anyway Config](https://github.com/palkan/anyway_config) to keep your Ruby configuration sane
 
+- [ViewComponents](https://viewcomponent.org/) - A framework for creating reusable, testable & encapsulated view components, built to integrate seamlessly with Ruby on Rails.
+
+- [LookBook](https://github.com/ViewComponent/lookbook) - A tool to help browse, develop, test & document ViewComponents in Ruby on Rails apps
+
+- [Tailwind Config Viewer](https://github.com/rogden/tailwind-config-viewer) - A local UI tool for visualizing your Tailwind CSS configuration file.
+
 ---
 
 ## Getting Started

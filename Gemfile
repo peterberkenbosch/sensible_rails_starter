@@ -51,6 +51,10 @@ gem "lookbook"
 # gem "jbuilder"
 # A comprehensive slugging and pretty-URL plugin. (https://github.com/norman/friendly_id)
 gem "friendly_id", "~> 5.4"
+# Use Vite in Rails and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
+gem "vite_rails", "~> 3.0"
+# Use Vite in Ruby and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
+gem "vite_ruby", "~> 3.2"
 
 ##############################
 # In Memory
@@ -195,8 +199,4 @@ group :development do
   gem "yamllint"
 end
 
-# Use Vite in Rails and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
-gem "vite_rails", "~> 3.0"
 
-# Use Vite in Ruby and bring joy to your JavaScript experience (https://github.com/ElMassimo/vite_ruby)
-gem "vite_ruby", "~> 3.2"
