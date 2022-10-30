@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  # mount Avo::Engine, at: Avo.configuration.root_path
+  get "home/index"
+  root "home#index"
 
   authenticate :user do
     mount Avo::Engine => "/avo"
@@ -7,15 +8,19 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  namespace :app_tools do
-    get "styles/simple_tails"
-    get "styles/tailwindcss"
+  # Allows us to use link_to for session destroy
+  devise_scope :user do
+    get "/users/sign_out", as: "sign_out", to: "devise/sessions#destroy"
   end
 
-  get "home/index"
-  root "home#index"
+  get "/health_check", to: ->(_) { [200, {}, ["timestamp:#{Time.now.to_i}"]] }
 
-  # resources :pages, only: [:show]
+  ####################################
+  # AppTools
+  #####################################
+  namespace :app_tools do
+    resources "simple_tails", only: [:index]
+  end
 
   namespace :app_tools do
     resources :mains, only: [:index]
@@ -23,15 +28,7 @@ Rails.application.routes.draw do
 
   get "app_tools", to: "app_tools/mains#index"
   get "tools", to: "app_tools/mains#index"
-  get "simple_tails", to: "app_tools/styles#simple_tails"
+  get "simple_tails", to: "app_tools/simple_tails#index"
 
-  get "/health_check", to: ->(_) { [200, {}, ["timestamp:#{Time.now.to_i}"]] }
-
-  # if Rails.env.development?
   mount Lookbook::Engine, at: "/lookbook"
-  # end
-
-  devise_scope :user do
-    get "/users/sign_out", as: "sign_out", to: "devise/sessions#destroy"
-  end
 end
