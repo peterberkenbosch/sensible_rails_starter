@@ -13,7 +13,7 @@ Keep with the _**[Boring Rails](https://boringrails.com/)**_ practice and way of
 
 With some added nuances for developer happiness.
 
-And Reactiveness...
+And Reactiveness... we'll let Russ explain. 
 
 [<img src="https://img.youtube.com/vi/utxCm3uLhIE/maxresdefault.jpg" width="50%">](https://youtu.be/utxCm3uLhIE)
 
