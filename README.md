@@ -9,7 +9,14 @@
 To make the adoption of Ruby on Rails easier for use in projects.
 
 ## Philosophy
-Keep with the 'Boring Rails' pattern of SSR frontend.
+Keep with the _**[Boring Rails](https://boringrails.com/)**_ practice and way of doing things.
+
+With some added nuances for developer happiness.
+
+And Reactiveness...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/utxCm3uLhIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 <hr>
