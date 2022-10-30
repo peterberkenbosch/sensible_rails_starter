@@ -85,6 +85,11 @@ gem "anyway_config"
 gem "avo"
 
 ##############################
+# APM
+##############################
+gem 'appsignal'
+
+##############################
 # Development & Test
 ##############################
 # All your development & test Gems are belong to us.

@@ -28,10 +28,6 @@ And Reactiveness... we'll let Russ explain.
 <li><a href="#contributions">Contributions</a></li>
 </ol>
 
-
-
-
-
 ## What's in the box
 
 

@@ -120,6 +120,8 @@ GEM
       bundler (>= 1.1)
     anyway_config (2.3.0)
       ruby-next-core (>= 0.14.0)
+    appsignal (3.1.5)
+      rack
     ast (2.4.2)
     avo (2.17.0)
       active_link_to
@@ -520,6 +522,7 @@ DEPENDENCIES
   annotate
   annotate_gem
   anyway_config
+  appsignal
   avo
   awesome_print (~> 1.9)
   bootsnap
