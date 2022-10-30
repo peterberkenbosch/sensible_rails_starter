@@ -4,6 +4,11 @@
 
 <p>🚀 Focus on building stuff and not the setup. 🚀</p>
 <br>
+
+## Vision
+To make the adoption of Ruby on Rails as   easier f
+
+
 <hr>
 </div>
 
@@ -14,6 +19,9 @@
 <li><a href="#alternatives">Alternatives</a></li>
 <li><a href="#contributions">Contributions</a></li>
 </ol>
+
+
+
 
 
 ## What's in the box
@@ -31,6 +39,11 @@
 
 - [Tailwind Config Viewer](https://github.com/rogden/tailwind-config-viewer) - A local UI tool for visualizing your Tailwind CSS configuration file.
 
+- [Avo](https://avohq.io/) - Avo uses familiar configuration to build up the features you need from most applications.
+  The result is a full-featured customer-facing app that works out of the box, ready to be used to your end-users. 
+  > **NB:** Avo will likely  be removed for an OSS oprion or self rolled solution 
+
+- [overcommit](https://github.com/sds/overcommit) is a tool to manage and configure [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
 ---
 
 ## Getting Started
