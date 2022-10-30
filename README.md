@@ -8,12 +8,24 @@
 </div>
 
 <ol>
+<li><a href="#whats-in-the-box">What's in the box</a></li>
 <li><a href="#getting-started">Getting Started</a></li>
 <li><a href="#using-overcommit">Using Overcommit</a></li>
-<li><a href="#whats-in-the-box">What's in the box</a></li>
 <li><a href="#alternatives">Alternatives</a></li>
 <li><a href="#contributions">Contributions</a></li>
 </ol>
+
+
+## What's in the box
+
+
+- **SimpleTails** a [TailwindCSS prose](https://tailwindcss.com/docs/typography-plugin) implementation heavily inspired by [SimpleCSS](https://simplecss.org/).
+
+- [ViteRuby](https://vite-ruby.netlify.app/) for lightning fast server starts, instant page update in development thanks to HMR nd much more
+
+- [Anyway Config](https://github.com/palkan/anyway_config) to keep your Ruby configuration sane
+
+---
 
 ## Getting Started
 
@@ -66,16 +78,6 @@ The above pre commit hooks have been defined in [.overcommit.yml](.overcommit.ym
 >     
 >     overcommit --uninstall
 
-
----
-
-
-## What's in the box
-
-> _"Good frameworks are extracted, not invented"_ - David Heinemeier Hansson
-
-The Gemfile is annotated with the description and links to each Gem's homepage for further details.
-  
 ---
 
 ## Alternatives
