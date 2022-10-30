@@ -16,11 +16,8 @@ With some added nuances for developer happiness.
 And Reactiveness...
 
 
-[![Russ Hanneman feels positive about StimulusReflex](https://www.youtube.com/watch?v=dQw4w9WgXcQ)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Russ Hanneman feels positive about StimulusReflex](./docs/images/russ.png =250x250)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-<div>
-<iframe width="918" height="516" src="https://www.youtube.com/embed/utxCm3uLhIE" title="Russ Hanneman feels positive about StimulusReflex" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 <hr>
 </div>
