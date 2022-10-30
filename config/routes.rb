@@ -18,9 +18,7 @@ Rails.application.routes.draw do
   ####################################
   # AppTools
   #####################################
-  namespace :app_tools do
-    # resources "simple_tails", only: [:index]
-  end
+
 
   namespace :app_tools do
     resources :mains, only: [:index]
@@ -28,7 +26,7 @@ Rails.application.routes.draw do
 
   get "app_tools", to: "app_tools/mains#index"
   get "tools", to: "app_tools/mains#index"
-  # get "simple_tails", to: "app_tools/simple_tails#index"
+  get "simple_tails", to: "app_tools/simple_tails#index"
 
   mount Lookbook::Engine, at: "/lookbook"
 end
