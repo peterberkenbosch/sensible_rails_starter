@@ -69,6 +69,14 @@ Then run the following to start the application.
 
  ---
 
+## Configuration
+
+You can chnange the app name in `config/sensibles.yml`
+
+[<img src="docs/images/sensibles-config.png" width="80%">](docs/images/sensibles-config.png)
+
+ ---
+
 ## Using overcommit
 
 [overcommit](https://github.com/sds/overcommit) a fully configurable and extendable Git hook manager is included.
