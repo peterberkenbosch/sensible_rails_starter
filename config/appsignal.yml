@@ -1,8 +1,7 @@
 default: &defaults
-  # Your push api key, it is possible to set this dynamically using ERB:
-#   push_api_key: "<%#= ENV['SRS_APPSIGNAL_PUSH_API_KEY'] %>"
-   push_api_key: "220629e8-06fc-43c3-82b2-8565c2e889b6"
-
+  #  Hardcoded for now. Only use for SensibleRails Demo
+  # Do not use this token for your app
+  push_api_key: "220629e8-06fc-43c3-82b2-8565c2e889b6"
 
   # Your app's name
   name: "SensibleRailsStarter"
