@@ -5,19 +5,17 @@
 <p>🚀 Focus on building stuff and not the setup. 🚀</p>
 <br>
 
-## Vision
+### Vision
 To make the adoption of Ruby on Rails easier for use in projects.
 
-## Philosophy
+### Philosophy
 Keep with the _**[Boring Rails](https://boringrails.com/)**_ practice and way of doing things.
 
 With some added nuances for developer happiness.
 
 And Reactiveness...
 
-
-[![Russ Hanneman feels positive about StimulusReflex](./docs/images/russ.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
+[<img src="https://img.youtube.com/vi/utxCm3uLhIE/maxresdefault.jpg" width="50%">](https://youtu.be/utxCm3uLhIE)
 
 <hr>
 </div>
