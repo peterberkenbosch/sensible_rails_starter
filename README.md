@@ -6,7 +6,10 @@
 <br>
 
 ## Vision
-To make the adoption of Ruby on Rails as   easier f
+To make the adoption of Ruby on Rails easier for use in projects.
+
+## Philosophy
+Keep with the 'Boring Rails' pattern of SSR frontend.
 
 
 <hr>
