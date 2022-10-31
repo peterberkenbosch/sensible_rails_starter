@@ -1,6 +1,5 @@
 @layer base {
-
-  :root {
+  [data-theme='sky'] {
     --bg: theme("colors.sky.900");
     --accent-bg: theme("colors.sky.800");
     --text: theme("colors.sky.50");

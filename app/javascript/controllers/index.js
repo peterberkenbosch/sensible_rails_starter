@@ -22,3 +22,6 @@ application.register('animated-number', AnimatedNumber)
 
 import CharacterCounter from 'stimulus-character-counter'
 application.register('character-counter', CharacterCounter)
+
+import { themeChange } from 'theme-change'
+themeChange()

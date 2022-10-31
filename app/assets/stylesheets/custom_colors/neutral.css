@@ -1,6 +1,5 @@
 @layer base {
-
-  :root {
+  [data-theme='neutral'] {
     --bg: theme("colors.neutral.900");
     --accent-bg: theme("colors.neutral.800");
     --text: theme("colors.neutral.50");
