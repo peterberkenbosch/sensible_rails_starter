@@ -4,6 +4,7 @@
     <div class="flex justify-center items-end">
       <%= link_to  "Home", home_index_path %>
       <%= link_to 'Tools', tools_path %>
+      <%= link_to "GitHub", "https://github.com/davidteren/sensible_rails_starter", target: '_blank' %>
       <% if user_signed_in? %>
         <%= link_to "Sign Out", sign_out_path %>
       <% else %>

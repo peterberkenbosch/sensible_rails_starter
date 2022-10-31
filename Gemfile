@@ -81,12 +81,6 @@ gem "bootsnap", require: false
 gem "anyway_config"
 
 ##############################
-# Administration
-##############################
-# Configuration-based, no-maintenance, extendable Ruby on Rails admin panel framework. (https://avohq.io)
-gem "avo"
-
-##############################
 # APM
 ##############################
 # Logs performance and exception data from your app to appsignal.com (https://github.com/appsignal/appsignal-ruby)

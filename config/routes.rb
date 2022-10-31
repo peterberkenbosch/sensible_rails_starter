@@ -2,10 +2,6 @@ Rails.application.routes.draw do
   get "home/index"
   root "home#index"
 
-  authenticate :user do
-    mount Avo::Engine => "/avo"
-  end
-
   devise_for :users
 
   # Allows us to use link_to for session destroy

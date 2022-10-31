@@ -5,9 +5,8 @@
   </p>
   <nav>
     <%= link_to 'Home', root_path %>
-    <%= link_to 'Admin', avo_path, target: '_blank' %>
     <%= link_to 'SimpleTails', simple_tails_path %>
-
+    <%= link_to "GitHub", "https://github.com/davidteren/sensible_rails_starter", target: '_blank' %>
     <% if Rails.env.development? %>
       <%= link_to 'Lookbook', lookbook_path, target: '_blank' %>
       <%= link_to 'Tailwind Config Viewer', "http://127.0.0.1:3008", target: '_blank' %>
