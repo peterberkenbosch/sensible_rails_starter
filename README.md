@@ -45,7 +45,7 @@ And Reactiveness... we'll let Russ explain.
 
 - [Avo](https://avohq.io/) - Avo uses familiar configuration to build up the features you need from most applications.
   The result is a full-featured customer-facing app that works out of the box, ready to be used to your end-users. 
-  > **NB:** Avo will likely  be removed for an OSS oprion or self rolled solution 
+  > **NB:** Avo will likely be removed for an OSS option or self rolled solution 
 
 - [overcommit](https://github.com/sds/overcommit) is a tool to manage and configure [Git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
 ---
