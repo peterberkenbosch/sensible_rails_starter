@@ -1,5 +1,7 @@
 @layer base {
 
+
+
   html {
     @apply text-[18.4px] scroll-smooth;
   }

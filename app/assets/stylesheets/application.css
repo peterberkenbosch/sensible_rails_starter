@@ -3,7 +3,11 @@
 @import "tailwindcss/utilities";
 
 
+
+
+
 /*Select the theme you want to use by uncommenting */
+@import "./custom_colors/default.css";
 @import "./custom_colors/amber.css";
 @import "./custom_colors/blue.css";
 @import "./custom_colors/coffee.css";
@@ -28,3 +32,4 @@
 @import "./custom_colors/zinc.css";
 
 @import "./simple_tails.css";
+
