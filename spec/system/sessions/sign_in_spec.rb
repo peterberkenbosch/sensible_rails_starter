@@ -16,7 +16,10 @@ describe "Sign In", auth: false do
     within "new_user" do
       fill_in "Email", with: user.email
       fill_in "Password", with: user.password
-      click_on "Sign In"
+
+      within "actions" do
+        click_on "Log in"
+      end
     end
 
     expect(page).to have_text "Signed in successfully."
