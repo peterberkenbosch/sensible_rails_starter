@@ -52,6 +52,8 @@ And Reactiveness... we'll let Russ explain.
 
 ## Getting Started
 
+### Native Development
+
 - Click the [**_Use this template_**](https://github.com/davidteren/sensible_rails_starter/generate) button to create a
   clone of this repo in your Github account.
 - Once you've git cloned your repo to your computer, run the following;
@@ -67,6 +69,20 @@ Then run the following to start the application.
 ./bin/dev
 ```
 
+### Docker Development
+
+We use [DIP - Docker Interaction Program](https://github.com/bibendi/dip) to make working with docker simpler.
+
+Install DIP
+
+```bash
+gem install dip
+```
+
+Provision the containers & start the application
+```bash
+dip provision && dip up web
+```
  ---
 
 ## Configuration

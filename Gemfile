@@ -10,7 +10,8 @@ ruby "3.1.2"
 # gem "rails", "~> 7.0.3.1"
 # Use Rails edge vesion
 # Full-stack web application framework. (https://rubyonrails.org)
-gem "rails", git: "https://github.com/rails/rails.git"
+# gem "rails", git: "https://github.com/rails/rails.git"
+gem "rails", "7.0.3.1"
 # Puma is a simple, fast, threaded, and highly parallel HTTP 1.1 server for Ruby/Rack applications (https://puma.io)
 gem "puma"
 
@@ -129,7 +130,8 @@ group :test do
   # gem "capybara"
   # The released vbuersion of Capybara doesn’t support Puma 6
   # Capybara aims to simplify the process of integration testing Rack applications, such as Rails, Sinatra or Merb (https://github.com/teamcapybara/capybara)
-  gem "capybara", git: "https://github.com/teamcapybara/capybara.git"
+  # gem "capybara", git: "https://github.com/teamcapybara/capybara.git"
+  gem "capybara"
   # Headless Chrome driver for Capybara (https://github.com/rubycdp/cuprite)
   gem "cuprite"
   # cucumber-rails-2.5.1 (https://cucumber.io)
