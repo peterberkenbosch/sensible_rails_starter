@@ -18,6 +18,11 @@ And Reactiveness... we'll let Russ explain.
 [<img src="https://img.youtube.com/vi/utxCm3uLhIE/maxresdefault.jpg" width="50%">](https://youtu.be/utxCm3uLhIE)
 
 <hr>
+
+![Alt](https://repobeats.axiom.co/api/embed/c633364ac12df7e7fe528e3c90e8e6e68d282adc.svg "Repobeats analytics image")
+
+<hr>
+
 </div>
 
 <ol>
